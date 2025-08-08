@@ -1,0 +1,40 @@
+name: Download HTML pages
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  download-pages:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Create datos folder
+        run: mkdir -p datos
+
+      - name: Download dolarhoy.com
+        run: |
+          TS=$(date +%s)
+          curl -sL "https://dolarhoy.com/?t=${TS}" -o datos/dolarhoyt
+
+      - name: Download IOL
+        run: |
+          TS=$(date +%s)
+          curl -sL "https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=${TS}" -o datos/iolt
+
+      - name: Commit and push if changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add datos/dolarhoy datos/iol
+          git commit -m "Update downloaded HTML pages" || echo "No changes to commit"
+          git push
