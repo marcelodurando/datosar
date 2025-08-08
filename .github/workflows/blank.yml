@@ -1,4 +1,4 @@
-name: Download HTML pages
+name: Download HTML pages 6 minutes
 
 on:
   schedule:
