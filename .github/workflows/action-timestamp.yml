@@ -32,7 +32,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add datos/dolarhoy.html datos/iol.html
+          git add datos/dolarhoyts datos/iolts
           git commit -m "Update HTML files ($(date))" --allow-empty
           git push
         env:
