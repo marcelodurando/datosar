@@ -2,7 +2,7 @@ name: Download HTML pages timestamp
 
 on:
   schedule:
-    - cron: '0 * * * *' # every hour
+    - cron: '2/5 * * * *' # every hour
   workflow_dispatch:
 
 permissions:
