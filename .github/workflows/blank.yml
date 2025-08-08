@@ -21,13 +21,46 @@ jobs:
       - name: Create datos folder
         run: mkdir -p datos
 
-      - name: Download dolarhoy.com
+      - name: Download dolarhoy HTML
         run: |
-          curl -sL https://dolarhoy.com/ -o datos/dolarhoy2
+          TIMESTAMP=$(date +%s)
+          curl -s "https://dolarhoy.com/?t=${TIMESTAMP}" -o datos/dolarhoy6
+          
+      - name: Download dolarhoy cotis
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -s "https://dolarhoy.com/cotizaciones?t=${TIMESTAMP}" -o datos/dolarhoycotizaciones6
 
-      - name: Download IOL
+      - name: Download dolarhoy cotis oficial
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -s "https://dolarhoy.com/cotizacion-dolar-oficial?t=${TIMESTAMP}" -o datos/dolarhoy-oficial
+          
+      - name: Download dolarhoy mep
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -s "https://dolarhoy.com/cotizacion-dolar-bolsa?t=${TIMESTAMP}" -o datos/dolarhoy-bolsa
+
+      - name: Download dolarhoy ccl
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -s "https://dolarhoy.com/cotizacion-dolar-ccl?t=${TIMESTAMP}" -o datos/dolarhoy-bolsa
+
+      - name: Download IOL 
         run: |
           curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol2
+
+      - name: Download IOL ar
+        run: |
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina -o datos/iol-mer-ar
+
+      - name: Download IOL us
+        run: |
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/estados-unidos -o datos/iol-mer-us        
+
+      - name: Download IOL monedas
+        run: |
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar          
 
       - name: Commit and push if changes
         run: |
