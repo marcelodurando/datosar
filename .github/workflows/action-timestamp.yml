@@ -24,7 +24,7 @@ jobs:
       - name: Download dolarhoy HTML
         run: |
           TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/?t=${TIMESTAMP}" -o datos/dolarhoyts
+          curl -s "https://dolarhoy.com/?t=${TIMESTAMP}" -o datos/dolarhoyts "https://dolarhoy.com/cotizaciones?t=${TIMESTAMP}" -o datos/dolarhoytscotis
 
       - name: Download IOL HTML
         run: |
@@ -35,7 +35,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add datos/dolarhoyts datos/iolts
+          git add *
           git commit -m "Update HTML files ($(date))" --allow-empty
           git push
         env:
