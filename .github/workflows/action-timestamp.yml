@@ -35,6 +35,11 @@ jobs:
         run: |
           TIMESTAMP=$(date +%s)
           curl -s "https://mercados.ambito.com//riesgopais/historico-general/2001-07-12/$(date +'%Y-%m-%d')?t=${TIMESTAMP}" -o datos/ambitorp
+          
+      - name: Download AMBITO json oficial
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -s "https://mercados.ambito.com//dolar/oficial/historico-general/2001-07-12/$(date +'%Y-%m-%d')?t=${TIMESTAMP}" -o datos/ambitousdof          
 
       - name: Commit and push changes (force commit)
         run: |
