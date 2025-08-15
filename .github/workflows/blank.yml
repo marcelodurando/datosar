@@ -72,10 +72,13 @@ jobs:
           [mayorista]="https://mercados.ambito.com//dolar/mayorista/variacion"
           [tarjeta]="https://mercados.ambito.com//dolarturista/variacion"
           [cripto]="https://mercados.ambito.com//dolarcripto/variacion"
+          [riesgopais]="https://mercados.ambito.com/riesgopais/historico-general/1/,"
+          [lideres]="https://mercados.ambito.com/acciones/lideres"
+          [general]="https://mercados.ambito.com/acciones/nolideres"
           )        
           for name in "${!urls[@]}"; do
             echo "${urls[$name]}"
-            curl -m 20 -s "${urls[$name]}" -o "$name.json"
+            curl -m 20 -s "${urls[$name]}" -o "datos/$name.json"
           done
 
       - name: Commit and push if changes
