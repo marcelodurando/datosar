@@ -60,7 +60,22 @@ jobs:
 
       - name: Download IOL monedas
         run: |
-          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar          
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar         
+
+      - name: ambito dolares
+        run: |
+          declare -A urls=(
+          [oficial]="https://mercados.ambito.com//dolar/oficial/variacion"
+          [blue]="https://mercados.ambito.com//dolar/informal/variacion"
+          [bolsa]="https://mercados.ambito.com//dolarrava/mep/variacion"
+          [contadoconliqui]="https://mercados.ambito.com//dolarrava/cl/variacion"
+          [mayorista]="https://mercados.ambito.com//dolar/mayorista/variacion"
+          [tarjeta]="https://mercados.ambito.com//dolarturista/variacion"
+          [cripto]="https://mercados.ambito.com//dolarcripto/variacion"
+          )        
+          for name in "${!urls[@]}"; do
+            curl -m 20 -s "${urls[$name]}" -o "$name.json"
+          done
 
       - name: Commit and push if changes
         run: |
