@@ -93,7 +93,7 @@ jobs:
           )        
           for name in "${!urls[@]}"; do
             echo "${urls[$name]}"
-            curl -m 20 -s "${urls[$name]}" -o "datos/$name.json"
+            curl -m 20 -s "${urls[$name]}" -o "datos/$name.html"
           done
 
       - name: Commit and push if changes
