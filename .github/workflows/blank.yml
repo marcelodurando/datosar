@@ -81,6 +81,21 @@ jobs:
             curl -m 20 -s "${urls[$name]}" -o "datos/$name.json"
           done
 
+      - name: dolar hoy
+        run: |
+          declare -A urls=(
+          [dolar-blue]="https://dolarhoy.com/i/cotizaciones/dolar-blue"
+          [dolar-oficial]="https://dolarhoy.com/i/cotizaciones/dolar-oficial"
+          [dolar-mep]="https://dolarhoy.com/i/cotizaciones/dolar-mep"
+          [dolar-contado-con-liquidacion]="https://dolarhoy.com/i/cotizaciones/dolar-contado-con-liquidacion"
+          [bitcoin-usd]="https://dolarhoy.com/i/cotizaciones/bitcoin-usd"
+          [banco-nacion]="https://dolarhoy.com/i/cotizaciones/banco-nacion"
+          )        
+          for name in "${!urls[@]}"; do
+            echo "${urls[$name]}"
+            curl -m 20 -s "${urls[$name]}" -o "datos/$name.json"
+          done
+
       - name: Commit and push if changes
         run: |
           git config --global user.name "github-actions[bot]"
