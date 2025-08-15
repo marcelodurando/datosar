@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # ✅ allow pushing changes
+  contents: write   # allow pushing changes
 
 jobs:
   download-pages:
@@ -74,6 +74,7 @@ jobs:
           [cripto]="https://mercados.ambito.com//dolarcripto/variacion"
           )        
           for name in "${!urls[@]}"; do
+            echo "${urls[$name]}"
             curl -m 20 -s "${urls[$name]}" -o "$name.json"
           done
 
