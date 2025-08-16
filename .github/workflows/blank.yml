@@ -24,7 +24,7 @@ jobs:
         
       - name: Check ip
         run: |         
-          curl https://ipinfo.io/ip; echo 
+          curl https://ipinfo.io/ip
           
       - name: Download dolarhoy HTML
         run: |
@@ -83,7 +83,7 @@ jobs:
           )        
           for name in "${!urls[@]}"; do
             echo "${urls[$name]}"
-            curl -m 20 -s "${urls[$name]}" -o "datos/$name.json"
+            curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
           done
 
       - name: dolar hoy
