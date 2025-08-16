@@ -84,6 +84,9 @@ jobs:
           for name in "${!urls[@]}"; do
             echo "${urls[$name]}"
             curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
+            if [ $? -ne 0 ]; then
+              echo "Curl error: $error_output"
+            fi
           done
 
       - name: dolar hoy
