@@ -21,6 +21,11 @@ jobs:
       - name: Create datos folder
         run: mkdir -p datos
 
+        
+      - name: Check ip
+        run: |         
+          curl https://ipinfo.io/ip; echo 
+          
       - name: Download dolarhoy HTML
         run: |
           TIMESTAMP=$(date +%s)
