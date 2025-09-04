@@ -683,7 +683,7 @@
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Merval:</strong>
-                    1.981.146,90
+                    1.981.092,20
                 </span>
 
                 <span class="up ml10">
@@ -693,11 +693,11 @@
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Bolsa:</strong>
-                    83.965.940,00
+                    83.907.720,00
                 </span>
 
                 <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">2,39</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">2,32</span>%
                 </span>
             </div>
 
@@ -864,7 +864,7 @@
                         700,00
                     </td>
                     <td class="tar">
-                        153.168.277
+                        162.911.685
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="17388" onclick="ToogleFavorito(this)"></span>
@@ -928,11 +928,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5720,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
-                        5.720,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="5690,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
+                        5.690,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,24" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,24</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,70" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,70</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -952,7 +952,7 @@
                         5.540,00
                     </td>
                     <td class="tar">
-                        254.243.650
+                        306.364.000
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1320" onclick="ToogleFavorito(this)"></span>
@@ -972,11 +972,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="4,165" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148378-2" }'>
-                        4,17
+                    <td class="right tar" data-field="UltimoPrecio" data-order="4,175" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148378-2" }'>
+                        4,18
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,09" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,09</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,34" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,34</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -989,14 +989,14 @@
                     <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,050">
                         4,05
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,150">
-                        4,15
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,165">
+                        4,17
                     </td>
                     <td data-field="UltimoCierre" class="tar" data-order="4,040">
                         4,04
                     </td>
                     <td class="tar">
-                        4.990
+                        6.119
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148378" onclick="ToogleFavorito(this)"></span>
@@ -1016,11 +1016,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="7910,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "444-2" }'>
-                        7.910,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="7930,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "444-2" }'>
+                        7.930,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,46" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,46</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,72" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,72</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1040,7 +1040,7 @@
                         7.720,00
                     </td>
                     <td class="tar">
-                        590.141.430
+                        767.706.140
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="444" onclick="ToogleFavorito(this)"></span>
@@ -1060,11 +1060,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5,720" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148380-2" }'>
-                        5,72
+                    <td class="right tar" data-field="UltimoPrecio" data-order="5,740" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148380-2" }'>
+                        5,74
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,59" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,59</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,95" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,95</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1084,7 +1084,7 @@
                         5,63
                     </td>
                     <td class="tar">
-                        6.947
+                        11.467
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148380" onclick="ToogleFavorito(this)"></span>
@@ -1104,11 +1104,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="185,250" data-quoteStyle='{"flash":"yes", "ElementToFlash": "88356-2" }'>
-                        185,25
+                    <td class="right tar" data-field="UltimoPrecio" data-order="185,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "88356-2" }'>
+                        185,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,20" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,20</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,06" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,06</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1128,7 +1128,7 @@
                         181,25
                     </td>
                     <td class="tar">
-                        92.164.612
+                        95.502.280
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="88356" onclick="ToogleFavorito(this)"></span>
@@ -1148,11 +1148,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,135" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148382-2" }'>
-                        0,14
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,133" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148382-2" }'>
+                        0,13
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="4,65" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">4,65</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,10" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,10</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1172,7 +1172,7 @@
                         0,13
                     </td>
                     <td class="tar">
-                        504
+                        1.864
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148382" onclick="ToogleFavorito(this)"></span>
@@ -1216,7 +1216,7 @@
                         1.380,00
                     </td>
                     <td class="tar">
-                        212.016.185
+                        248.954.250
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="773" onclick="ToogleFavorito(this)"></span>
@@ -1260,7 +1260,7 @@
                         1,01
                     </td>
                     <td class="tar">
-                        6.502
+                        7.990
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148384" onclick="ToogleFavorito(this)"></span>
@@ -1280,11 +1280,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="41,100" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1016-2" }'>
-                        41,10
+                    <td class="right tar" data-field="UltimoPrecio" data-order="40,650" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1016-2" }'>
+                        40,65
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,52" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,52</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,39" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,39</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1304,7 +1304,7 @@
                         39,70
                     </td>
                     <td class="tar">
-                        142.662.310
+                        162.439.309
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1016" onclick="ToogleFavorito(this)"></span>
@@ -1348,7 +1348,7 @@
                         0,03
                     </td>
                     <td class="tar">
-                        8.534
+                        8.776
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148389" onclick="ToogleFavorito(this)"></span>
@@ -1368,11 +1368,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1335,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1087-2" }'>
-                        1.335,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1345,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1087-2" }'>
+                        1.345,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,29" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,29</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,06" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,06</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1392,7 +1392,7 @@
                         1.305,00
                     </td>
                     <td class="tar">
-                        167.813.015
+                        170.431.685
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1087" onclick="ToogleFavorito(this)"></span>
@@ -1500,11 +1500,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1460,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "34271-2" }'>
-                        1.460,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1470,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "34271-2" }'>
+                        1.470,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,18" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,18</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,88" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,88</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1524,7 +1524,7 @@
                         1.415,00
                     </td>
                     <td class="tar">
-                        222.271.745
+                        292.975.715
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="34271" onclick="ToogleFavorito(this)"></span>
@@ -1568,7 +1568,7 @@
                         1,03
                     </td>
                     <td class="tar">
-                        4.721
+                        9.916
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148393" onclick="ToogleFavorito(this)"></span>
@@ -1588,11 +1588,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5470,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "3445-2" }'>
-                        5.470,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="5430,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "3445-2" }'>
+                        5.430,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,40" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,40</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,64" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,64</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1612,7 +1612,7 @@
                         5.290,00
                     </td>
                     <td class="tar">
-                        5.811.798.600
+                        6.461.493.190
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="3445" onclick="ToogleFavorito(this)"></span>
@@ -1632,11 +1632,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3,965" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148394-2" }'>
-                        3,97
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3,960" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148394-2" }'>
+                        3,96
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,45" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,45</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,32" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,32</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1656,14 +1656,14 @@
                         3,87
                     </td>
                     <td class="tar">
-                        150.663
+                        171.806
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148394" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="1499-2" data-cantidad="1">
-                    <td class="tal links up mw145" data-field="IDTitulo" 
+                    <td class="tal links down mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl irsa" data-toggle="tooltip" data-placement="top" title="Irsa"></i>
                         <a href="/Titulo/Index/1499" data-url="/Titulo/Index/1499" data-symbol="IRSA" data-toggle="tooltip" data-placement="top" title="Irsa">
@@ -1676,11 +1676,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1915,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1499-2" }'>
-                        1.915,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1885,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1499-2" }'>
+                        1.885,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,52" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,52</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-1,04" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-1,04</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1700,7 +1700,7 @@
                         1.905,00
                     </td>
                     <td class="tar">
-                        246.681.350
+                        249.213.295
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1499" onclick="ToogleFavorito(this)"></span>
@@ -1720,11 +1720,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,385" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148395-2" }'>
-                        1,39
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,395" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148395-2" }'>
+                        1,40
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,36" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,36</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,08" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,08</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1744,7 +1744,7 @@
                         1,38
                     </td>
                     <td class="tar">
-                        593
+                        690
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148395" onclick="ToogleFavorito(this)"></span>
@@ -1764,11 +1764,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2530,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "89736-2" }'>
-                        2.530,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2520,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "89736-2" }'>
+                        2.520,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,40" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,40</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,00" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,00</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1788,7 +1788,7 @@
                         2.495,00
                     </td>
                     <td class="tar">
-                        235.038.860
+                        249.494.220
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="89736" onclick="ToogleFavorito(this)"></span>
@@ -1808,11 +1808,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,845" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148390-2" }'>
-                        1,85
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,820" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148390-2" }'>
+                        1,82
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,49" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,49</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,11" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,11</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1832,7 +1832,7 @@
                         1,80
                     </td>
                     <td class="tar">
-                        463
+                        489
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148390" onclick="ToogleFavorito(this)"></span>
@@ -1876,7 +1876,7 @@
                         1.455,00
                     </td>
                     <td class="tar">
-                        495.631.775
+                        549.824.335
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1656" onclick="ToogleFavorito(this)"></span>
@@ -1964,7 +1964,7 @@
                         3.610,00
                     </td>
                     <td class="tar">
-                        1.090.620.595
+                        1.147.580.930
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1978" onclick="ToogleFavorito(this)"></span>
@@ -2008,7 +2008,7 @@
                         2,64
                     </td>
                     <td class="tar">
-                        97.510
+                        107.386
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148388" onclick="ToogleFavorito(this)"></span>
@@ -2028,11 +2028,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2130,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "83755-2" }'>
-                        2.130,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2125,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "83755-2" }'>
+                        2.125,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,64" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,64</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,40" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,40</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2052,7 +2052,7 @@
                         2.055,00
                     </td>
                     <td class="tar">
-                        919.351.850
+                        968.619.970
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="83755" onclick="ToogleFavorito(this)"></span>
@@ -2072,11 +2072,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,540" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148387-2" }'>
-                        1,54
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,545" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148387-2" }'>
+                        1,55
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,01" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,01</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,34" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,34</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2096,7 +2096,7 @@
                         1,50
                     </td>
                     <td class="tar">
-                        29.263
+                        53.475
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148387" onclick="ToogleFavorito(this)"></span>
@@ -2116,11 +2116,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2290,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2621-2" }'>
-                        2.290,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2285,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2621-2" }'>
+                        2.285,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,10" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,10</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,88" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,88</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2140,7 +2140,7 @@
                         2.265,00
                     </td>
                     <td class="tar">
-                        100.764.170
+                        112.298.760
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2621" onclick="ToogleFavorito(this)"></span>
@@ -2204,11 +2204,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2,175" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148386-2" }'>
-                        2,18
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2,160" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148386-2" }'>
+                        2,16
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,11" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,11</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,40" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,40</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2228,7 +2228,7 @@
                         2,13
                     </td>
                     <td class="tar">
-                        2.063
+                        6.044
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148386" onclick="ToogleFavorito(this)"></span>
@@ -2248,11 +2248,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3010,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "33643-2" }'>
-                        3.010,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2990,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "33643-2" }'>
+                        2.990,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,86" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,86</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,18" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,18</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2272,7 +2272,7 @@
                         2.955,00
                     </td>
                     <td class="tar">
-                        261.158.305
+                        293.263.460
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="33643" onclick="ToogleFavorito(this)"></span>
@@ -2292,11 +2292,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="7210,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2681-2" }'>
-                        7.210,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="7200,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2681-2" }'>
+                        7.200,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,00" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,00</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,85" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,85</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2316,7 +2316,7 @@
                         7.000,00
                     </td>
                     <td class="tar">
-                        292.885.960
+                        434.300.430
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2681" onclick="ToogleFavorito(this)"></span>
@@ -2336,11 +2336,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5,220" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148397-2" }'>
-                        5,22
+                    <td class="right tar" data-field="UltimoPrecio" data-order="5,250" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148397-2" }'>
+                        5,25
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,16" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,16</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,75" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,75</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2353,14 +2353,14 @@
                     <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,910">
                         4,91
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,250">
-                        5,25
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,280">
+                        5,28
                     </td>
                     <td data-field="UltimoCierre" class="tar" data-order="5,060">
                         5,06
                     </td>
                     <td class="tar">
-                        13.229
+                        21.261
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148397" onclick="ToogleFavorito(this)"></span>
@@ -2380,11 +2380,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2000,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2747-2" }'>
-                        2.000,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1995,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2747-2" }'>
+                        1.995,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,78" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,78</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,52" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,52</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2404,7 +2404,7 @@
                         1.965,00
                     </td>
                     <td class="tar">
-                        608.783.650
+                        612.343.960
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2747" onclick="ToogleFavorito(this)"></span>
@@ -2424,11 +2424,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,370" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148398-2" }'>
-                        1,37
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,405" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148398-2" }'>
+                        1,41
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-6,16" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-6,16</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-3,76" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-3,76</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2438,8 +2438,8 @@
                     <td data-field="Apertura" class="tar" data-order="1,440">
                         1,44
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,440">
-                        1,44
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,370">
+                        1,37
                     </td>
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,470">
                         1,47
@@ -2448,7 +2448,7 @@
                         1,46
                     </td>
                     <td class="tar">
-                        1.405
+                        3.523
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148398" onclick="ToogleFavorito(this)"></span>
@@ -2468,11 +2468,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="543,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1258-2" }'>
-                        543,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="542,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1258-2" }'>
+                        542,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,55" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,55</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,37" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,37</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2492,7 +2492,7 @@
                         540,00
                     </td>
                     <td class="tar">
-                        323.281.138
+                        344.827.683
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1258" onclick="ToogleFavorito(this)"></span>
@@ -2512,11 +2512,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,396" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148381-2" }'>
-                        0,40
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,392" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148381-2" }'>
+                        0,39
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,27" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,27</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,25" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,25</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2526,7 +2526,7 @@
                     <td data-field="Apertura" class="tar" data-order="0,396">
                         0,40
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,393">
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,392">
                         0,39
                     </td>
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,397">
@@ -2536,14 +2536,14 @@
                         0,39
                     </td>
                     <td class="tar">
-                        1.032
+                        1.061
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148381" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="108730-2" data-cantidad="1">
-                    <td class="tal links up mw145" data-field="IDTitulo" 
+                    <td class="tal links down mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl valo" data-toggle="tooltip" data-placement="top" title="Banco de Valores S.A."></i>
                         <a href="/Titulo/Index/108730" data-url="/Titulo/Index/108730" data-symbol="VALO" data-toggle="tooltip" data-placement="top" title="Banco de Valores S.A.">
@@ -2556,11 +2556,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="313,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "108730-2" }'>
-                        313,50
+                    <td class="right tar" data-field="UltimoPrecio" data-order="311,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "108730-2" }'>
+                        311,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,15" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,15</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,63" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,63</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2580,14 +2580,14 @@
                         313,00
                     </td>
                     <td class="tar">
-                        309.408.128
+                        325.125.552
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="108730" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="2804-2" data-cantidad="1">
-                    <td class="tal links neutral mw145" data-field="IDTitulo" 
+                    <td class="tal links down mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl valod" data-toggle="tooltip" data-placement="top" title="Banco de Valores S.A."></i>
                         <a href="/Titulo/Index/2804" data-url="/Titulo/Index/2804" data-symbol="VALOD" data-toggle="tooltip" data-placement="top" title="Banco de Valores S.A.">
@@ -2600,31 +2600,31 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,239" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2804-2" }'>
-                        0,24
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,230" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2804-2" }'>
+                        0,23
                     </td>
-                    <td class="neutral text-right" data-field="Variacion" data-order="0" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-3,76" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-3,76</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
                         <td class="highlightventa tar pr15" data-order="-">-</td>
                         <td class="highlightventa tar pr15">-</td>
 
-                    <td data-field="Apertura" class="tar" data-order="0,239">
-                        0,24
+                    <td data-field="Apertura" class="tar" data-order="0,228">
+                        0,23
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,220">
-                        0,22
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,228">
+                        0,23
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,240">
-                        0,24
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,230">
+                        0,23
                     </td>
                     <td data-field="UltimoCierre" class="tar" data-order="0,239">
                         0,24
                     </td>
                     <td class="tar">
-                        0
+                        99
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2804" onclick="ToogleFavorito(this)"></span>
@@ -2644,11 +2644,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="41900,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2846-2" }'>
-                        41.900,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="41950,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2846-2" }'>
+                        41.950,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,07" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,07</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,19" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,19</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2668,7 +2668,7 @@
                         40.650,00
                     </td>
                     <td class="tar">
-                        9.351.170.425
+                        10.321.079.375
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2846" onclick="ToogleFavorito(this)"></span>
@@ -2688,11 +2688,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="30,450" data-quoteStyle='{"flash":"yes", "ElementToFlash": "138140-2" }'>
-                        30,45
+                    <td class="right tar" data-field="UltimoPrecio" data-order="30,400" data-quoteStyle='{"flash":"yes", "ElementToFlash": "138140-2" }'>
+                        30,40
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,69" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,69</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,52" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,52</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2712,7 +2712,7 @@
                         29,65
                     </td>
                     <td class="tar">
-                        277.373
+                        364.613
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="138140" onclick="ToogleFavorito(this)"></span>
