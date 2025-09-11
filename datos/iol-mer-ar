@@ -904,7 +904,7 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,502">
                         0,50
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,489">
+                    <td data-field="UltimoCierre" class="tar" data-order="0,490">
                         0,49
                     </td>
                     <td class="tar">
@@ -992,8 +992,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="3,320">
                         3,32
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="3,285">
-                        3,29
+                    <td data-field="UltimoCierre" class="tar" data-order="3,210">
+                        3,21
                     </td>
                     <td class="tar">
                         49.467
@@ -1036,8 +1036,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="6920,000">
                         6.920,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="6795,000">
-                        6.795,00
+                    <td data-field="UltimoCierre" class="tar" data-order="6660,000">
+                        6.660,00
                     </td>
                     <td class="tar">
                         2.362.816.905
@@ -1080,8 +1080,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,835">
                         4,84
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="4,750">
-                        4,75
+                    <td data-field="UltimoCierre" class="tar" data-order="4,770">
+                        4,77
                     </td>
                     <td class="tar">
                         18.730
@@ -1124,8 +1124,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="167,000">
                         167,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="163,500">
-                        163,50
+                    <td data-field="UltimoCierre" class="tar" data-order="165,750">
+                        165,75
                     </td>
                     <td class="tar">
                         1.311.748.291
@@ -1168,8 +1168,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,120">
                         0,12
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,117">
-                        0,12
+                    <td data-field="UltimoCierre" class="tar" data-order="0,110">
+                        0,11
                     </td>
                     <td class="tar">
                         8.138
@@ -1212,8 +1212,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1323,000">
                         1.323,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1295,000">
-                        1.295,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1310,000">
+                        1.310,00
                     </td>
                     <td class="tar">
                         1.724.311.854
@@ -1256,8 +1256,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,960">
                         0,96
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,935">
-                        0,94
+                    <td data-field="UltimoCierre" class="tar" data-order="0,920">
+                        0,92
                     </td>
                     <td class="tar">
                         4.896
@@ -1300,8 +1300,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="34,700">
                         34,70
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="34,280">
-                        34,28
+                    <td data-field="UltimoCierre" class="tar" data-order="34,200">
+                        34,20
                     </td>
                     <td class="tar">
                         371.937.424
@@ -1344,7 +1344,7 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,025">
                         0,03
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,024">
+                    <td data-field="UltimoCierre" class="tar" data-order="0,023">
                         0,02
                     </td>
                     <td class="tar">
@@ -1388,8 +1388,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1330,000">
                         1.330,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1278,000">
-                        1.278,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1280,000">
+                        1.280,00
                     </td>
                     <td class="tar">
                         478.634.627
@@ -1432,7 +1432,7 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,900">
                         0,90
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,889">
+                    <td data-field="UltimoCierre" class="tar" data-order="0,886">
                         0,89
                     </td>
                     <td class="tar">
@@ -1476,8 +1476,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,350">
                         1,35
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,245">
-                        1,25
+                    <td data-field="UltimoCierre" class="tar" data-order="1,320">
+                        1,32
                     </td>
                     <td class="tar">
                         1.396
@@ -1520,8 +1520,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1388,000">
                         1.388,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1351,000">
-                        1.351,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1305,000">
+                        1.305,00
                     </td>
                     <td class="tar">
                         1.024.241.529
@@ -1564,8 +1564,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,965">
                         0,97
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,913">
-                        0,91
+                    <td data-field="UltimoCierre" class="tar" data-order="0,895">
+                        0,90
                     </td>
                     <td class="tar">
                         4.582
@@ -1696,8 +1696,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1880,000">
                         1.880,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1854,000">
-                        1.854,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1818,000">
+                        1.818,00
                     </td>
                     <td class="tar">
                         552.178.037
@@ -1740,8 +1740,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,300">
                         1,30
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,300">
-                        1,30
+                    <td data-field="UltimoCierre" class="tar" data-order="1,255">
+                        1,26
                     </td>
                     <td class="tar">
                         427
@@ -1784,8 +1784,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2351,000">
                         2.351,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2311,000">
-                        2.311,00
+                    <td data-field="UltimoCierre" class="tar" data-order="2284,000">
+                        2.284,00
                     </td>
                     <td class="tar">
                         1.062.368.463
@@ -1828,8 +1828,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,640">
                         1,64
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,685">
-                        1,69
+                    <td data-field="UltimoCierre" class="tar" data-order="1,665">
+                        1,67
                     </td>
                     <td class="tar">
                         49.250
@@ -1872,8 +1872,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1418,000">
                         1.418,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1376,000">
-                        1.376,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1345,000">
+                        1.345,00
                     </td>
                     <td class="tar">
                         1.164.634.621
@@ -1916,8 +1916,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,992">
                         0,99
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,960">
-                        0,96
+                    <td data-field="UltimoCierre" class="tar" data-order="0,940">
+                        0,94
                     </td>
                     <td class="tar">
                         21.096
@@ -1960,8 +1960,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="3635,000">
                         3.635,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="3580,000">
-                        3.580,00
+                    <td data-field="UltimoCierre" class="tar" data-order="3600,000">
+                        3.600,00
                     </td>
                     <td class="tar">
                         5.872.317.765
@@ -2004,7 +2004,7 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2,580">
                         2,58
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2,500">
+                    <td data-field="UltimoCierre" class="tar" data-order="2,495">
                         2,50
                     </td>
                     <td class="tar">
@@ -2048,8 +2048,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1832,000">
                         1.832,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1792,000">
-                        1.792,00
+                    <td data-field="UltimoCierre" class="tar" data-order="1709,000">
+                        1.709,00
                     </td>
                     <td class="tar">
                         6.093.897.286
@@ -2092,8 +2092,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,280">
                         1,28
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,265">
-                        1,27
+                    <td data-field="UltimoCierre" class="tar" data-order="1,180">
+                        1,18
                     </td>
                     <td class="tar">
                         64.798
@@ -2136,8 +2136,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2199,000">
                         2.199,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2144,000">
-                        2.144,00
+                    <td data-field="UltimoCierre" class="tar" data-order="2127,000">
+                        2.127,00
                     </td>
                     <td class="tar">
                         502.775.331
@@ -2180,8 +2180,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,510">
                         1,51
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,430">
-                        1,43
+                    <td data-field="UltimoCierre" class="tar" data-order="1,480">
+                        1,48
                     </td>
                     <td class="tar">
                         36
@@ -2224,8 +2224,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2,040">
                         2,04
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2,010">
-                        2,01
+                    <td data-field="UltimoCierre" class="tar" data-order="1,960">
+                        1,96
                     </td>
                     <td class="tar">
                         4.338
@@ -2268,8 +2268,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2940,000">
                         2.940,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2870,000">
-                        2.870,00
+                    <td data-field="UltimoCierre" class="tar" data-order="2770,000">
+                        2.770,00
                     </td>
                     <td class="tar">
                         3.441.205.295
@@ -2356,8 +2356,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="4,780">
                         4,78
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="4,760">
-                        4,76
+                    <td data-field="UltimoCierre" class="tar" data-order="4,620">
+                        4,62
                     </td>
                     <td class="tar">
                         21.582
@@ -2400,8 +2400,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="2075,000">
                         2.075,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="2037,000">
-                        2.037,00
+                    <td data-field="UltimoCierre" class="tar" data-order="2000,000">
+                        2.000,00
                     </td>
                     <td class="tar">
                         5.598.166.292
@@ -2444,8 +2444,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="1,460">
                         1,46
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="1,425">
-                        1,43
+                    <td data-field="UltimoCierre" class="tar" data-order="1,390">
+                        1,39
                     </td>
                     <td class="tar">
                         412
@@ -2532,8 +2532,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,399">
                         0,40
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,383">
-                        0,38
+                    <td data-field="UltimoCierre" class="tar" data-order="0,366">
+                        0,37
                     </td>
                     <td class="tar">
                         9.465
@@ -2576,8 +2576,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="297,000">
                         297,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="288,250">
-                        288,25
+                    <td data-field="UltimoCierre" class="tar" data-order="286,000">
+                        286,00
                     </td>
                     <td class="tar">
                         643.959.077
@@ -2620,8 +2620,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,205">
                         0,21
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="0,205">
-                        0,21
+                    <td data-field="UltimoCierre" class="tar" data-order="0,199">
+                        0,20
                     </td>
                     <td class="tar">
                         123
@@ -2664,8 +2664,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="41700,000">
                         41.700,00
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="41120,000">
-                        41.120,00
+                    <td data-field="UltimoCierre" class="tar" data-order="40900,000">
+                        40.900,00
                     </td>
                     <td class="tar">
                         17.249.868.580
@@ -2708,8 +2708,8 @@
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="29,160">
                         29,16
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="28,760">
-                        28,76
+                    <td data-field="UltimoCierre" class="tar" data-order="28,420">
+                        28,42
                     </td>
                     <td class="tar">
                         556.510
