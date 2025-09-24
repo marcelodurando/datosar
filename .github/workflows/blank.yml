@@ -80,6 +80,9 @@ jobs:
           [riesgopais]="https://mercados.ambito.com/riesgopais/historico-general/1/,"
           [lideres]="https://mercados.ambito.com/acciones/lideres"
           [general]="https://mercados.ambito.com/acciones/nolideres"
+          [riesgopais_week]="https://mercados.ambito.com//riesgopais/grafico/semanal"
+          [riesgopais_ultimo]="https://mercados.ambito.com//riesgopais/variacion-ultimo"
+          [dolares_infobae]="https://www.infobae.com/pf/api/v3/content/fetch/dolar-managment?query=undefined&d=&mxId=00000000&_website=infobae"
           )        
           for name in "${!urls[@]}"; do
             echo "${urls[$name]}"
