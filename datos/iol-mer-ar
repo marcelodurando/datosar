@@ -928,11 +928,11 @@
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="8610,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
-                        8.610,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="8585,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
+                        8.585,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-3,25" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-3,25</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-3,53" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-3,53</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -952,7 +952,7 @@
                         8.900,00
                     </td>
                     <td class="tar">
-                        10.092.418.565
+                        10.099.191.930
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1320" onclick="ToogleFavorito(this)"></span>
@@ -2624,7 +2624,7 @@
                         56.050,00
                     </td>
                     <td class="tar">
-                        54.153.545.725
+                        54.157.145.450
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2846" onclick="ToogleFavorito(this)"></span>
