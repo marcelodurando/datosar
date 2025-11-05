@@ -701,21 +701,21 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Merval:</strong>
-                    3.053.145,20
+                    3.055.651,00
                 </span>
 
                 <span class="down ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,90</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,81</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Bolsa:</strong>
-                    125.805.360,00
+                    126.056.856,00
                 </span>
 
                 <span class="down ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,67</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,47</span>%
                 </span>
             </div>
 
@@ -838,7 +838,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 1.425,0000</td>
                     <td class="tar"> 1.475,0000</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>54,0500 %</strong>
                     </td>
@@ -850,9 +850,9 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.483,1478</td>
+                    <td class="tar"> 1.483,3804</td>
                     <td class="tar"> 1.483,9266</td>
-                    <td class="tac"> 5/11/2025 16:10:01</td>
+                    <td class="tac"> 5/11/2025 16:20:01</td>
                     <td class="tar down">
                         <strong>-0,7793 %</strong>
                     </td>
@@ -863,11 +863,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.483,1208</td>
-                    <td class="tar"> 1.484,5438</td>
-                    <td class="tac"> 5/11/2025 16:10:01</td>
+                    <td class="tar"> 1.482,9656</td>
+                    <td class="tar"> 1.484,3070</td>
+                    <td class="tac"> 5/11/2025 16:20:01</td>
                     <td class="tar up">
-                        <strong>0,2105 %</strong>
+                        <strong>0,1945 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -877,11 +877,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.502,2229</td>
-                    <td class="tar"> 1.503,2566</td>
-                    <td class="tac"> 5/11/2025 16:10:01</td>
+                    <td class="tar"> 1.501,9844</td>
+                    <td class="tar"> 1.503,0178</td>
+                    <td class="tac"> 5/11/2025 16:20:01</td>
                     <td class="tar down">
-                        <strong>-0,8031 %</strong>
+                        <strong>-0,8189 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -890,11 +890,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.500,9110</td>
-                    <td class="tar"> 1.502,3538</td>
-                    <td class="tac"> 5/11/2025 16:10:01</td>
+                    <td class="tar"> 1.500,5315</td>
+                    <td class="tar"> 1.503,7274</td>
+                    <td class="tac"> 5/11/2025 16:20:01</td>
                     <td class="tar down">
-                        <strong>-0,2498 %</strong>
+                        <strong>-0,1586 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -903,11 +903,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 270,6179</td>
-                    <td class="tar"> 270,7675</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tar"> 270,5611</td>
+                    <td class="tar"> 270,7107</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>63,3200 %</strong>
+                        <strong>63,2800 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -918,7 +918,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 0,0128</td>
                     <td class="tar"> 0,0128</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar down">
                         <strong>-36,3200 %</strong>
                     </td>
@@ -929,11 +929,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,5361</td>
-                    <td class="tar"> 1,5361</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tar"> 1,5353</td>
+                    <td class="tar"> 1,5353</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>57,5000 %</strong>
+                        <strong>57,4200 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -944,7 +944,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 9,4062</td>
                     <td class="tar"> 9,4231</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>54,9500 %</strong>
                     </td>
@@ -957,7 +957,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 1.880,9505</td>
                     <td class="tar"> 1.897,0380</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>58,0200 %</strong>
                     </td>
@@ -970,7 +970,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 1.655,4096</td>
                     <td class="tar"> 1.669,3644</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>62,5800 %</strong>
                     </td>
@@ -981,9 +981,9 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 36,4887</td>
                     <td class="tar"> 36,4890</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tar"> 36,4892</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>57,6900 %</strong>
                     </td>
@@ -994,11 +994,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
+                    <td class="tar"> 1,1481</td>
                     <td class="tar"> 1,1482</td>
-                    <td class="tar"> 1,1483</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>6,2200 %</strong>
+                        <strong>6,2100 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1007,11 +1007,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
+                    <td class="tar"> 0,1866</td>
                     <td class="tar"> 0,1867</td>
-                    <td class="tar"> 0,1868</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>5,0000 %</strong>
+                        <strong>4,9500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1022,7 +1022,7 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 0,0248</td>
                     <td class="tar"> 0,0255</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
                         <strong>1,2700 %</strong>
                     </td>
@@ -1035,9 +1035,9 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 0,0011</td>
                     <td class="tar"> 0,0011</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>1,1500 %</strong>
+                        <strong>1,2400 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1048,9 +1048,9 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
 
                     <td class="tar"> 0,0538</td>
                     <td class="tar"> 0,0538</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>0,9000 %</strong>
+                        <strong>0,9200 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1059,11 +1059,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 0,6490</td>
-                    <td class="tar"> 0,6490</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tar"> 0,6488</td>
+                    <td class="tar"> 0,6489</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar down">
-                        <strong>-0,5300 %</strong>
+                        <strong>-0,5500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1072,11 +1072,11 @@ Las operaciones que hagas hoy en Plazo Normal (T+1) se acreditar&#225;n el viern
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,3043</td>
-                    <td class="tar"> 1,3045</td>
-                    <td class="tac"> 5/11/2025 16:12:00</td>
+                    <td class="tar"> 1,3042</td>
+                    <td class="tar"> 1,3044</td>
+                    <td class="tac"> 5/11/2025 16:22:00</td>
                     <td class="tar up">
-                        <strong>1,6300 %</strong>
+                        <strong>1,6200 %</strong>
                     </td>
                 </tr>
 
