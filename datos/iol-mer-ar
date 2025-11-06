@@ -860,11 +860,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="975,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "17388-2" }'>
-                        975,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="974,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "17388-2" }'>
+                        974,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-0,15" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,15</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,25" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,25</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -884,7 +884,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         976,50
                     </td>
                     <td class="tar">
-                        52.342.837
+                        67.695.678
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="17388" onclick="ToogleFavorito(this)"></span>
@@ -904,11 +904,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,657" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148377-2" }'>
-                        0,66
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,672" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148377-2" }'>
+                        0,67
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,15" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,15</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,43" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,43</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -928,7 +928,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         0,66
                     </td>
                     <td class="tar">
-                        12.543
+                        12.589
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148377" onclick="ToogleFavorito(this)"></span>
@@ -948,11 +948,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="8525,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
-                        8.525,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="8480,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1320-2" }'>
+                        8.480,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-0,98" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,98</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-1,50" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-1,50</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -972,7 +972,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         8.610,00
                     </td>
                     <td class="tar">
-                        67.223.695
+                        82.776.610
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1320" onclick="ToogleFavorito(this)"></span>
@@ -992,31 +992,31 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5,800" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148378-2" }'>
-                        5,80
+                    <td class="right tar" data-field="UltimoPrecio" data-order="5,900" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148378-2" }'>
+                        5,90
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,17" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,17</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,43" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,43</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
                         <td class="highlightventa tar pr15" data-order="-">-</td>
                         <td class="highlightventa tar pr15">-</td>
 
-                    <td data-field="Apertura" class="tar" data-order="5,800">
-                        5,80
+                    <td data-field="Apertura" class="tar" data-order="5,750">
+                        5,75
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,530">
-                        5,53
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,730">
+                        5,73
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="6,060">
-                        6,06
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,750">
+                        5,75
                     </td>
-                    <td data-field="UltimoCierre" class="tar" data-order="5,800">
-                        5,80
+                    <td data-field="UltimoCierre" class="tar" data-order="5,760">
+                        5,76
                     </td>
                     <td class="tar">
-                        82.435
+                        1.433
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148378" onclick="ToogleFavorito(this)"></span>
@@ -1036,11 +1036,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="13300,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "444-2" }'>
-                        13.300,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="13350,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "444-2" }'>
+                        13.350,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,07" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,07</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,45" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,45</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1060,14 +1060,14 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         13.290,00
                     </td>
                     <td class="tar">
-                        81.542.350
+                        89.556.100
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="444" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="148380-2" data-cantidad="1">
-                    <td class="tal links down mw145" data-field="IDTitulo" 
+                    <td class="tal links up mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl bma.d" data-toggle="tooltip" data-placement="top" title="Banco Macro"></i>
                         <a href="/Titulo/Index/148380" data-url="/Titulo/Index/148380" data-symbol="BMA.D" data-toggle="tooltip" data-placement="top" title="Banco Macro">
@@ -1080,11 +1080,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="8,900" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148380-2" }'>
-                        8,90
+                    <td class="right tar" data-field="UltimoPrecio" data-order="9,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148380-2" }'>
+                        9,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-0,44" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,44</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,67" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,67</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1104,7 +1104,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         8,94
                     </td>
                     <td class="tar">
-                        2.685
+                        4.607
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148380" onclick="ToogleFavorito(this)"></span>
@@ -1124,11 +1124,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="329,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "88356-2" }'>
-                        329,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="330,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "88356-2" }'>
+                        330,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,93" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,93</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,24" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,24</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1148,7 +1148,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         322,75
                     </td>
                     <td class="tar">
-                        173.869.426
+                        196.463.096
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="88356" onclick="ToogleFavorito(this)"></span>
@@ -1168,11 +1168,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,224" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148382-2" }'>
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,222" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148382-2" }'>
                         0,22
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,81" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,81</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,90" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,90</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1192,7 +1192,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         0,22
                     </td>
                     <td class="tar">
-                        1.644
+                        1.910
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148382" onclick="ToogleFavorito(this)"></span>
@@ -1212,11 +1212,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2350,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "773-2" }'>
-                        2.350,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2340,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "773-2" }'>
+                        2.340,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,29" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,29</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,86" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,86</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1236,14 +1236,14 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         2.320,00
                     </td>
                     <td class="tar">
-                        84.393.930
+                        93.419.173
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="773" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="148384-2" data-cantidad="1">
-                    <td class="tal links neutral mw145" data-field="IDTitulo" 
+                    <td class="tal links down mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl cepud" data-toggle="tooltip" data-placement="top" title="Central Puerto Sa"></i>
                         <a href="/Titulo/Index/148384" data-url="/Titulo/Index/148384" data-symbol="CEPUD" data-toggle="tooltip" data-placement="top" title="Central Puerto Sa">
@@ -1256,11 +1256,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,600" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148384-2" }'>
-                        1,60
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,585" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148384-2" }'>
+                        1,59
                     </td>
-                    <td class="neutral text-right" data-field="Variacion" data-order="0" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,93" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,93</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1280,7 +1280,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         1,60
                     </td>
                     <td class="tar">
-                        2.397
+                        3.658
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148384" onclick="ToogleFavorito(this)"></span>
@@ -1300,11 +1300,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="65,300" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1016-2" }'>
-                        65,30
+                    <td class="right tar" data-field="UltimoPrecio" data-order="65,100" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1016-2" }'>
+                        65,10
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="4,14" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">4,14</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="3,82" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,82</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1317,21 +1317,21 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                     <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="61,400">
                         61,40
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="65,400">
-                        65,40
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="66,000">
+                        66,00
                     </td>
                     <td data-field="UltimoCierre" class="tar" data-order="62,700">
                         62,70
                     </td>
                     <td class="tar">
-                        286.167.334
+                        466.762.495
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1016" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="148389-2" data-cantidad="1">
-                    <td class="tal links neutral mw145" data-field="IDTitulo" 
+                    <td class="tal links up mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl comed" data-toggle="tooltip" data-placement="top" title="Sociedad Comercial Del Plata"></i>
                         <a href="/Titulo/Index/148389" data-url="/Titulo/Index/148389" data-symbol="COMED" data-toggle="tooltip" data-placement="top" title="Sociedad Comercial Del Plata">
@@ -1344,11 +1344,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,043" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148389-2" }'>
-                        0,04
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,045" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148389-2" }'>
+                        0,05
                     </td>
-                    <td class="neutral text-right" data-field="Variacion" data-order="0" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="4,65" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">4,65</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1358,7 +1358,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                     <td data-field="Apertura" class="tar" data-order="0,044">
                         0,04
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,044">
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,043">
                         0,04
                     </td>
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="0,045">
@@ -1368,7 +1368,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         0,04
                     </td>
                     <td class="tar">
-                        12.069
+                        12.072
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148389" onclick="ToogleFavorito(this)"></span>
@@ -1388,11 +1388,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1780,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1087-2" }'>
-                        1.780,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1772,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1087-2" }'>
+                        1.772,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,73" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,73</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,28" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,28</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1412,7 +1412,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         1.767,00
                     </td>
                     <td class="tar">
-                        7.127.229
+                        7.904.388
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1087" onclick="ToogleFavorito(this)"></span>
@@ -1520,11 +1520,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2565,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "34271-2" }'>
-                        2.565,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2560,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "34271-2" }'>
+                        2.560,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,48" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,48</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,29" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,29</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1544,7 +1544,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         2.552,50
                     </td>
                     <td class="tar">
-                        142.618.443
+                        239.529.115
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="34271" onclick="ToogleFavorito(this)"></span>
@@ -1564,11 +1564,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,735" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148393-2" }'>
-                        1,74
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,730" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148393-2" }'>
+                        1,73
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-1,13" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-1,13</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-1,42" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-1,42</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1588,7 +1588,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         1,76
                     </td>
                     <td class="tar">
-                        2.015
+                        2.215
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148393" onclick="ToogleFavorito(this)"></span>
@@ -1608,11 +1608,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="8785,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "3445-2" }'>
-                        8.785,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="8795,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "3445-2" }'>
+                        8.795,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-0,22" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,22</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,11" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,11</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1632,7 +1632,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         8.805,00
                     </td>
                     <td class="tar">
-                        1.194.929.925
+                        1.280.465.960
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="3445" onclick="ToogleFavorito(this)"></span>
@@ -1676,7 +1676,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         5,96
                     </td>
                     <td class="tar">
-                        95.669
+                        105.288
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148394" onclick="ToogleFavorito(this)"></span>
@@ -1740,11 +1740,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3452,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "89736-2" }'>
-                        3.452,50
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3440,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "89736-2" }'>
+                        3.440,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,09" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,09</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,73" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,73</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1764,7 +1764,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         3.415,00
                     </td>
                     <td class="tar">
-                        110.232.473
+                        165.878.463
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="89736" onclick="ToogleFavorito(this)"></span>
@@ -1784,11 +1784,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2,350" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148390-2" }'>
-                        2,35
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2,330" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148390-2" }'>
+                        2,33
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,17" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,17</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,30" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,30</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1808,7 +1808,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         2,30
                     </td>
                     <td class="tar">
-                        9.496
+                        10.802
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148390" onclick="ToogleFavorito(this)"></span>
@@ -1828,11 +1828,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2510,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1656-2" }'>
-                        2.510,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2515,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1656-2" }'>
+                        2.515,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,40" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,40</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,60" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,60</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1852,7 +1852,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         2.500,00
                     </td>
                     <td class="tar">
-                        70.246.835
+                        104.521.363
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1656" onclick="ToogleFavorito(this)"></span>
@@ -1872,11 +1872,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="1,705" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148399-2" }'>
-                        1,71
+                    <td class="right tar" data-field="UltimoPrecio" data-order="1,700" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148399-2" }'>
+                        1,70
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,79" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,79</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,49" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,49</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1896,7 +1896,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         1,68
                     </td>
                     <td class="tar">
-                        2.134
+                        3.094
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148399" onclick="ToogleFavorito(this)"></span>
@@ -1940,7 +1940,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         5.270,00
                     </td>
                     <td class="tar">
-                        501.363.065
+                        549.242.405
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1978" onclick="ToogleFavorito(this)"></span>
@@ -1960,11 +1960,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3,495" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148388-2" }'>
-                        3,50
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3,545" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148388-2" }'>
+                        3,55
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-2,23" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-2,23</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,83" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,83</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -1984,14 +1984,14 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         3,58
                     </td>
                     <td class="tar">
-                        19.850
+                        28.931
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148388" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="83755-2" data-cantidad="1">
-                    <td class="tal links up mw145" data-field="IDTitulo" 
+                    <td class="tal links down mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl supv" data-toggle="tooltip" data-placement="top" title="Grupo Supervielle S.A."></i>
                         <a href="/Titulo/Index/83755" data-url="/Titulo/Index/83755" data-symbol="SUPV" data-toggle="tooltip" data-placement="top" title="Grupo Supervielle S.A.">
@@ -2004,11 +2004,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3827,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "83755-2" }'>
-                        3.827,50
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3777,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "83755-2" }'>
+                        3.777,50
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,52" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,52</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,78" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,78</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2028,7 +2028,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         3.807,50
                     </td>
                     <td class="tar">
-                        83.098.000
+                        109.186.465
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="83755" onclick="ToogleFavorito(this)"></span>
@@ -2048,11 +2048,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="2,595" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148387-2" }'>
+                    <td class="right tar" data-field="UltimoPrecio" data-order="2,600" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148387-2" }'>
                         2,60
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,58" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,58</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,77" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,77</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2072,7 +2072,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         2,58
                     </td>
                     <td class="tar">
-                        9.457
+                        9.491
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148387" onclick="ToogleFavorito(this)"></span>
@@ -2092,11 +2092,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3700,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2621-2" }'>
-                        3.700,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3760,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2621-2" }'>
+                        3.760,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,20" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,20</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,82" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,82</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2116,7 +2116,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         3.692,50
                     </td>
                     <td class="tar">
-                        4.382.655
+                        5.627.933
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2621" onclick="ToogleFavorito(this)"></span>
@@ -2180,11 +2180,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3,205" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148386-2" }'>
-                        3,21
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3,105" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148386-2" }'>
+                        3,11
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,38" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,38</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,16" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,16</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2197,14 +2197,14 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                     <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="3,090">
                         3,09
                     </td>
-                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="3,185">
-                        3,19
+                    <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="3,205">
+                        3,21
                     </td>
                     <td data-field="UltimoCierre" class="tar" data-order="3,100">
                         3,10
                     </td>
                     <td class="tar">
-                        1.447
+                        2.687
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148386" onclick="ToogleFavorito(this)"></span>
@@ -2224,11 +2224,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="4635,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "33643-2" }'>
-                        4.635,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="4617,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "33643-2" }'>
+                        4.617,50
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,25" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,25</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,87" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,87</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2248,7 +2248,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         4.577,50
                     </td>
                     <td class="tar">
-                        36.357.505
+                        38.988.198
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="33643" onclick="ToogleFavorito(this)"></span>
@@ -2268,11 +2268,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="8915,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2681-2" }'>
-                        8.915,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="8910,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2681-2" }'>
+                        8.910,00
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-0,77" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,77</span>%
+                    <td class="down text-right" data-field="Variacion" data-order="-0,83" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-0,83</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2292,14 +2292,14 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         8.985,00
                     </td>
                     <td class="tar">
-                        44.724.800
+                        49.679.890
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2681" onclick="ToogleFavorito(this)"></span>
                     </td>
                 </tr>
                 <tr data-tituloID="148397-2" data-cantidad="1">
-                    <td class="tal links down mw145" data-field="IDTitulo" 
+                    <td class="tal links up mw145" data-field="IDTitulo" 
                                                 data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true }'>
                         <i class="icono-simbolo mr10 fl tgsud" data-toggle="tooltip" data-placement="top" title="Transportadora Gas Del Sur"></i>
                         <a href="/Titulo/Index/148397" data-url="/Titulo/Index/148397" data-symbol="TGSUD" data-toggle="tooltip" data-placement="top" title="Transportadora Gas Del Sur">
@@ -2312,11 +2312,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="5,990" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148397-2" }'>
-                        5,99
+                    <td class="right tar" data-field="UltimoPrecio" data-order="6,260" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148397-2" }'>
+                        6,26
                     </td>
-                    <td class="down text-right" data-field="Variacion" data-order="-1,80" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">-1,80</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,62" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,62</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2326,8 +2326,8 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                     <td data-field="Apertura" class="tar" data-order="6,200">
                         6,20
                     </td>
-                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="6,000">
-                        6,00
+                    <td data-field="Minimo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="5,990">
+                        5,99
                     </td>
                     <td data-field="Maximo" class="tar" data-quoteStyle='{"flash":"onchange"}' data-order="6,200">
                         6,20
@@ -2336,7 +2336,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         6,10
                     </td>
                     <td class="tar">
-                        1.219
+                        2.208
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148397" onclick="ToogleFavorito(this)"></span>
@@ -2356,11 +2356,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="3135,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2747-2" }'>
-                        3.135,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="3127,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2747-2" }'>
+                        3.127,50
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="2,45" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,45</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="2,20" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">2,20</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2380,7 +2380,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         3.060,00
                     </td>
                     <td class="tar">
-                        85.230.805
+                        97.782.833
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2747" onclick="ToogleFavorito(this)"></span>
@@ -2444,11 +2444,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="810,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1258-2" }'>
-                        810,50
+                    <td class="right tar" data-field="UltimoPrecio" data-order="811,500" data-quoteStyle='{"flash":"yes", "ElementToFlash": "1258-2" }'>
+                        811,50
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,37" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,37</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,50" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,50</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2468,7 +2468,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         799,50
                     </td>
                     <td class="tar">
-                        75.921.248
+                        79.455.549
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="1258" onclick="ToogleFavorito(this)"></span>
@@ -2488,11 +2488,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="0,560" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148381-2" }'>
-                        0,56
+                    <td class="right tar" data-field="UltimoPrecio" data-order="0,547" data-quoteStyle='{"flash":"yes", "ElementToFlash": "148381-2" }'>
+                        0,55
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="3,70" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">3,70</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,29" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,29</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2512,7 +2512,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         0,54
                     </td>
                     <td class="tar">
-                        6.254
+                        7.199
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="148381" onclick="ToogleFavorito(this)"></span>
@@ -2532,11 +2532,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="447,250" data-quoteStyle='{"flash":"yes", "ElementToFlash": "108730-2" }'>
-                        447,25
+                    <td class="right tar" data-field="UltimoPrecio" data-order="449,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "108730-2" }'>
+                        449,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="0,84" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,84</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="1,24" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,24</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2556,7 +2556,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         443,50
                     </td>
                     <td class="tar">
-                        408.691.214
+                        409.354.133
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="108730" onclick="ToogleFavorito(this)"></span>
@@ -2620,11 +2620,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="56400,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2846-2" }'>
-                        56.400,00
+                    <td class="right tar" data-field="UltimoPrecio" data-order="55900,000" data-quoteStyle='{"flash":"yes", "ElementToFlash": "2846-2" }'>
+                        55.900,00
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,43" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,43</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,53" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,53</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2644,7 +2644,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         55.600,00
                     </td>
                     <td class="tar">
-                        1.054.122.275
+                        1.713.139.200
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="2846" onclick="ToogleFavorito(this)"></span>
@@ -2664,11 +2664,11 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                             </span>
                         </a>
                     </td>
-                    <td class="right tar" data-field="UltimoPrecio" data-order="38,190" data-quoteStyle='{"flash":"yes", "ElementToFlash": "138140-2" }'>
-                        38,19
+                    <td class="right tar" data-field="UltimoPrecio" data-order="37,660" data-quoteStyle='{"flash":"yes", "ElementToFlash": "138140-2" }'>
+                        37,66
                     </td>
-                    <td class="up text-right" data-field="Variacion" data-order="1,78" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
-                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">1,78</span>%
+                    <td class="up text-right" data-field="Variacion" data-order="0,37" data-quoteStyle='{"ValueChange": false, "flash":"no", "CssChange":true}'>
+                        <i class="sprite-inline sprite-arrow mr5"></i><span class="ml15" data-field="Variacion">0,37</span>%
                     </td>
                         <td class="highlightcompra tar pr15">-</td>
                         <td class="highlightcompra tar pr15" data-order="-">-</td>
@@ -2688,7 +2688,7 @@ Las operaciones que hagas hoy en Contado Inmediato, incluida la compra de D&#243
                         37,52
                     </td>
                     <td class="tar">
-                        111.081
+                        150.237
                     </td>
                     <td>
                         <span class="flags star-empty" data-idtitulo="138140" onclick="ToogleFavorito(this)"></span>
