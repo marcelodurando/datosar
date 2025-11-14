@@ -685,21 +685,21 @@
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Merval:</strong>
-                    2.998.402,20
+                    2.985.601,80
                 </span>
 
                 <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">3,99</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">3,55</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Bolsa:</strong>
-                    124.507.320,00
+                    124.070.060,00
                 </span>
 
                 <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">3,97</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">3,60</span>%
                 </span>
             </div>
 
@@ -822,7 +822,7 @@
 
                     <td class="tar"> 1.375,0000</td>
                     <td class="tar"> 1.425,0000</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>48,8300 %</strong>
                     </td>
@@ -834,11 +834,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.453,2285</td>
-                    <td class="tar"> 1.453,7608</td>
-                    <td class="tac"> 14/11/2025 16:40:01</td>
+                    <td class="tar"> 1.472,8682</td>
+                    <td class="tar"> 1.427,2727</td>
+                    <td class="tac"> 14/11/2025 17:00:00</td>
                     <td class="tar down">
-                        <strong>-0,5665 %</strong>
+                        <strong>-2,3782 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -847,11 +847,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.452,2620</td>
-                    <td class="tar"> 1.454,6926</td>
-                    <td class="tac"> 14/11/2025 16:40:01</td>
-                    <td class="tar down">
-                        <strong>-0,0633 %</strong>
+                    <td class="tar"> 1.449,6556</td>
+                    <td class="tar"> 1.456,6176</td>
+                    <td class="tac"> 14/11/2025 17:00:00</td>
+                    <td class="tar up">
+                        <strong>0,0690 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -861,11 +861,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.486,6782</td>
-                    <td class="tar"> 1.487,4625</td>
-                    <td class="tac"> 14/11/2025 16:40:01</td>
+                    <td class="tar"> 1.495,5919</td>
+                    <td class="tar"> 1.482,2974</td>
+                    <td class="tac"> 14/11/2025 17:00:00</td>
                     <td class="tar up">
-                        <strong>0,3560 %</strong>
+                        <strong>0,0076 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -874,11 +874,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.486,0965</td>
-                    <td class="tar"> 1.487,0677</td>
-                    <td class="tac"> 14/11/2025 16:40:01</td>
+                    <td class="tar"> 1.482,9085</td>
+                    <td class="tar"> 1.489,4737</td>
+                    <td class="tac"> 14/11/2025 17:00:00</td>
                     <td class="tar up">
-                        <strong>0,5354 %</strong>
+                        <strong>0,6981 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -887,11 +887,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 264,9004</td>
-                    <td class="tar"> 265,0486</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 264,9463</td>
+                    <td class="tar"> 264,9478</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>59,8700 %</strong>
+                        <strong>59,8100 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -902,7 +902,7 @@
 
                     <td class="tar"> 0,0130</td>
                     <td class="tar"> 0,0130</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar down">
                         <strong>-35,3200 %</strong>
                     </td>
@@ -913,11 +913,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,5161</td>
-                    <td class="tar"> 1,5162</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 1,5163</td>
+                    <td class="tar"> 1,5163</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>55,4500 %</strong>
+                        <strong>55,4700 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -926,11 +926,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 9,0800</td>
-                    <td class="tar"> 9,0824</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 9,0794</td>
+                    <td class="tar"> 9,0819</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>49,3500 %</strong>
+                        <strong>49,3400 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -941,7 +941,7 @@
 
                     <td class="tar"> 1.832,8312</td>
                     <td class="tar"> 1.848,8734</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>54,0100 %</strong>
                     </td>
@@ -954,7 +954,7 @@
 
                     <td class="tar"> 1.617,1794</td>
                     <td class="tar"> 1.631,1278</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>58,8600 %</strong>
                     </td>
@@ -965,11 +965,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 35,2950</td>
-                    <td class="tar"> 35,2953</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 35,2899</td>
+                    <td class="tar"> 35,2901</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>52,5300 %</strong>
+                        <strong>52,5100 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -978,11 +978,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,1616</td>
-                    <td class="tar"> 1,1618</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 1,1617</td>
+                    <td class="tar"> 1,1619</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>7,4600 %</strong>
+                        <strong>7,4700 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -991,9 +991,9 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 0,1888</td>
                     <td class="tar"> 0,1889</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 0,1889</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>6,1800 %</strong>
                     </td>
@@ -1006,7 +1006,7 @@
 
                     <td class="tar"> 0,0248</td>
                     <td class="tar"> 0,0255</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>1,2300 %</strong>
                     </td>
@@ -1019,7 +1019,7 @@
 
                     <td class="tar"> 0,0011</td>
                     <td class="tar"> 0,0011</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
                         <strong>3,2500 %</strong>
                     </td>
@@ -1031,10 +1031,10 @@
                     </td>
 
                     <td class="tar"> 0,0546</td>
-                    <td class="tar"> 0,0547</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 0,0546</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar up">
-                        <strong>2,4600 %</strong>
+                        <strong>2,4200 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1043,11 +1043,11 @@
                         </strong>
                     </td>
 
+                    <td class="tar"> 0,6470</td>
                     <td class="tar"> 0,6471</td>
-                    <td class="tar"> 0,6471</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tac"> 14/11/2025 16:56:00</td>
                     <td class="tar down">
-                        <strong>-0,8200 %</strong>
+                        <strong>-0,8300 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1056,11 +1056,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,3159</td>
-                    <td class="tar"> 1,3161</td>
-                    <td class="tac"> 14/11/2025 16:41:00</td>
+                    <td class="tar"> 1,3167</td>
+                    <td class="tar"> 1,3168</td>
+                    <td class="tac"> 14/11/2025 16:57:00</td>
                     <td class="tar up">
-                        <strong>2,5300 %</strong>
+                        <strong>2,5900 %</strong>
                     </td>
                 </tr>
 
