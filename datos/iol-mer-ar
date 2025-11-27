@@ -441,7 +441,24 @@
 </style>
 
 <body>
-    
+            <div class="tb notificacionesboxacerrar">
+            <div class="container " id="notificacionesBox">
+                <div class="alert alert-info notificacionBox mb5" role="alert">
+                    <div class="mr15">
+                        <span class="glyphicon glyphicon glyphicon-info-sign"></span>
+                    </div>
+                    <div>
+                        <span><strong>Importante:</strong></span>
+                        <span>Hoy 27/11 es feriado en EE.UU. Pod&#233;s programar tus operaciones, pero todas se ejecutar&#225;n el viernes 28, incluida la operaci&#243;n de D&#243;lar CCL. Record&#225; que el mercado local opera con normalidad.</span>
+
+
+                    </div>
+                    <div id="closenotificaciones" class="glyphicon glyphicon-remove ">
+                    </div>
+                </div>
+            </div>
+        </div>
+
 
 </body>
 
