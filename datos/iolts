@@ -50,7 +50,7 @@
     <meta name="description" content="Encontrá todas las cotizaciones de Cotizaci&oacute;n de Monedas en InvertirOnline.com. Ingresá e informate.">
 
     
-    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1765291994" />
+    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1765292449" />
 
 <link href="/Content/Styles/toastr?v=HoCfD4gLIkLhlSGKdpl1svporuy1f6VtgzxxVinFS2g1" rel="stylesheet"/>
 <link href="/Content/TestInversor?v=kmrQPIMZhVbFMZUDl6GF29_ATkjLKVJiR4EThG_ks2U1" rel="stylesheet"/>
@@ -685,21 +685,21 @@
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Merval:</strong>
-                    3.032.786,00
+                    3.022.554,00
                 </span>
 
                 <span class="down ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,45</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,78</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Bolsa:</strong>
-                    124.051.970,00
+                    123.763.220,00
                 </span>
 
                 <span class="down ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,53</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,76</span>%
                 </span>
             </div>
 
@@ -822,7 +822,7 @@
 
                     <td class="tar"> 1.410,0000</td>
                     <td class="tar"> 1.460,0000</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
                         <strong>52,4800 %</strong>
                     </td>
@@ -834,11 +834,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.469,8058</td>
-                    <td class="tar"> 1.470,3364</td>
-                    <td class="tac"> 9/12/2025 11:40:00</td>
+                    <td class="tar"> 1.468,8981</td>
+                    <td class="tar"> 1.469,4283</td>
+                    <td class="tac"> 9/12/2025 11:50:00</td>
                     <td class="tar down">
-                        <strong>-0,2849 %</strong>
+                        <strong>-0,3465 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -847,11 +847,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.470,2328</td>
-                    <td class="tar"> 1.472,4351</td>
-                    <td class="tac"> 9/12/2025 11:40:00</td>
+                    <td class="tar"> 1.469,6523</td>
+                    <td class="tar"> 1.470,1635</td>
+                    <td class="tac"> 9/12/2025 11:50:00</td>
                     <td class="tar down">
-                        <strong>-0,1366 %</strong>
+                        <strong>-0,2907 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -861,11 +861,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.499,3762</td>
-                    <td class="tar"> 1.499,9220</td>
-                    <td class="tac"> 9/12/2025 11:40:00</td>
+                    <td class="tar"> 1.498,6746</td>
+                    <td class="tar"> 1.499,2202</td>
+                    <td class="tac"> 9/12/2025 11:50:00</td>
                     <td class="tar down">
-                        <strong>-0,5963 %</strong>
+                        <strong>-0,6428 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -874,11 +874,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.495,8021</td>
-                    <td class="tar"> 1.503,2355</td>
-                    <td class="tac"> 9/12/2025 11:40:00</td>
+                    <td class="tar"> 1.498,7981</td>
+                    <td class="tar"> 1.501,1283</td>
+                    <td class="tac"> 9/12/2025 11:50:00</td>
                     <td class="tar down">
-                        <strong>-0,4430 %</strong>
+                        <strong>-0,5826 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -887,11 +887,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 262,3457</td>
-                    <td class="tar"> 262,4879</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 262,3867</td>
+                    <td class="tar"> 262,5289</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>58,3200 %</strong>
+                        <strong>58,3500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -902,7 +902,7 @@
 
                     <td class="tar"> 0,0127</td>
                     <td class="tar"> 0,0127</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar down">
                         <strong>-36,8200 %</strong>
                     </td>
@@ -913,11 +913,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,5493</td>
-                    <td class="tar"> 1,5493</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 1,5463</td>
+                    <td class="tar"> 1,5463</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>58,8600 %</strong>
+                        <strong>58,5500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -926,11 +926,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 9,1577</td>
-                    <td class="tar"> 9,1845</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 9,1589</td>
+                    <td class="tar"> 9,1850</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>51,0300 %</strong>
+                        <strong>51,0400 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -941,7 +941,7 @@
 
                     <td class="tar"> 1.901,2858</td>
                     <td class="tar"> 1.917,5905</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
                         <strong>59,7300 %</strong>
                     </td>
@@ -954,7 +954,7 @@
 
                     <td class="tar"> 1.659,4362</td>
                     <td class="tar"> 1.673,4970</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
                         <strong>62,9800 %</strong>
                     </td>
@@ -965,9 +965,9 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 36,6969</td>
-                    <td class="tar"> 36,6972</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 36,6971</td>
+                    <td class="tar"> 36,6973</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
                         <strong>58,5900 %</strong>
                     </td>
@@ -978,11 +978,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,1631</td>
-                    <td class="tar"> 1,1633</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 1,1632</td>
+                    <td class="tar"> 1,1634</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>7,6000 %</strong>
+                        <strong>7,6100 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -991,11 +991,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 0,1830</td>
-                    <td class="tar"> 0,1832</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tar"> 0,1834</td>
+                    <td class="tar"> 0,1835</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>2,9800 %</strong>
+                        <strong>3,1500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1006,7 +1006,7 @@
 
                     <td class="tar"> 0,0252</td>
                     <td class="tar"> 0,0259</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
                         <strong>2,9400 %</strong>
                     </td>
@@ -1019,9 +1019,9 @@
 
                     <td class="tar"> 0,0011</td>
                     <td class="tar"> 0,0011</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>3,1500 %</strong>
+                        <strong>2,9600 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1032,9 +1032,9 @@
 
                     <td class="tar"> 0,0548</td>
                     <td class="tar"> 0,0548</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>2,7900 %</strong>
+                        <strong>2,7700 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1045,7 +1045,7 @@
 
                     <td class="tar"> 0,6391</td>
                     <td class="tar"> 0,6391</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar down">
                         <strong>-2,0500 %</strong>
                     </td>
@@ -1056,11 +1056,11 @@
                         </strong>
                     </td>
 
+                    <td class="tar"> 1,3309</td>
                     <td class="tar"> 1,3310</td>
-                    <td class="tar"> 1,3312</td>
-                    <td class="tac"> 9/12/2025 11:45:00</td>
+                    <td class="tac"> 9/12/2025 11:55:00</td>
                     <td class="tar up">
-                        <strong>3,7100 %</strong>
+                        <strong>3,6900 %</strong>
                     </td>
                 </tr>
 
