@@ -7,7 +7,7 @@ import fs from "fs";
 const SITEMAP_URL = "https://lottoedge.com/florida-lottery-sitemap.xml";
 const HEADERS = {
   "User-Agent":
-    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Safari/537.36",
   "Accept":
     "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
   "Accept-Language": "en-US,en;q=0.9",
@@ -33,7 +33,12 @@ function text($el) {
 }
 
 async function parseGame(url) {
-  const html = await axios.get(url, { headers: HEADERS }).then(r => r.data);
+  const html = await axios.get(url, {
+  headers: {
+    ...HEADERS,
+    Referer: new URL(url).origin
+  }
+}).then(r => r.data);
   const $ = cheerio.load(html);
 
   const game = {
