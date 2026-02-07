@@ -20,7 +20,7 @@ async function sleep(ms) {
 }
 
 async function getScratchUrls() {
-  const xml = await axios.get(SITEMAP_URL, { headers: HEADERS }).then(r => r.data);
+  const xml = await axios.get(SITEMAP_URL).then(r => r.data);
   const parsed = await parseStringPromise(xml);
 
   return parsed.urlset.url
