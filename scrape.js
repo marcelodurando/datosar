@@ -1,7 +1,8 @@
 import axios from "axios";
-import cheerio from "cheerio";
+import * as cheerio from "cheerio";
 import { parseStringPromise } from "xml2js";
 import fs from "fs";
+
 
 const SITEMAP_URL = "https://lottoedge.com/florida-lottery-sitemap.xml";
 
