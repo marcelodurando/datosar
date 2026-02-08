@@ -23,7 +23,7 @@ jobs:
           cd $HOME/ci-tool
           
           # 2. Download the TARBALL (Correct URL for v0.6.1)
-          wget https://github.com/lwthiker/curl-impersonate/releases/download/v0.6.1/curl-impersonate-v0.6.1-x86_64-linux-gnu.tar.gz
+          wget https://github.com/lwthiker/curl-impersonate/releases/download/v0.6.1/curl-impersonate-v0.6.1.x86_64-linux-gnu.tar.gz
           
           # 3. Extract the contents
           tar -xvf curl-impersonate-v0.6.1-x86_64-linux-gnu.tar.gz
