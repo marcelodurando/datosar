@@ -1,0 +1,75 @@
+name: Scrape scratch pages from sitemap
+
+on:
+  workflow_dispatch:
+    inputs:
+      sitemap_url:
+        description: "Sitemap URL"
+        required: true
+        type: string
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Install curl-impersonate
+        run: |
+          sudo apt update
+          sudo apt install -y wget curl gnupg
+          wget https://github.com/lwthiker/curl-impersonate/releases/latest/download/curl-impersonate-chrome_amd64.deb
+          sudo dpkg -i curl-impersonate-chrome_amd64.deb
+
+      - name: Fetch sitemap and extract scratch URLs
+        run: |
+          mkdir -p tmp datos
+
+          # 1️⃣ Fetch sitemap, save headers + cookies
+          curl-impersonate-chrome \
+            --compressed \
+            --location \
+            -D tmp/sitemap.headers \
+            -c tmp/cookies.txt \
+            "${{ inputs.sitemap_url }}" \
+            -o tmp/sitemap.xml
+
+          # 2️⃣ Extract URLs containing /scratch/
+          grep -oP '(?<=<loc>).*?(?=</loc>)' tmp/sitemap.xml \
+            | grep '/scratch/' \
+            > tmp/scratch_urls.txt
+
+          echo "Found $(wc -l < tmp/scratch_urls.txt) scratch URLs"
+
+      - name: Download scratch pages using same cookies
+        run: |
+          i=0
+          while read -r url; do
+            i=$((i+1))
+            echo "[$i] Fetching $url"
+
+            # Safe filename
+            filename=$(echo "$url" | sed 's|https\?://||; s|/|_|g').html
+
+            curl-impersonate-chrome \
+              --compressed \
+              --location \
+              -b tmp/cookies.txt \
+              -c tmp/cookies.txt \
+              -H "Referer: ${{ inputs.sitemap_url }}" \
+              "$url" \
+              -o "datos/$filename"
+
+            # ⏳ be nice
+            sleep 5
+          done < tmp/scratch_urls.txt
+
+      - name: Commit downloaded HTML files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add data/html
+          git commit -m "Add scratch page HTML snapshots" || echo "Nothing to commit"
+          git push
