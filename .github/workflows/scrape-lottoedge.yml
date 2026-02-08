@@ -16,51 +16,68 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install curl-impersonate (working)
+      - name: Install curl-impersonate
         run: |
-          sudo apt-get update
-          sudo apt-get install -y wget ca-certificates
-      
-          wget -O curl-impersonate-chrome \
-            https://github.com/lwthiker/curl-impersonate/releases/download/v0.6.1/curl-impersonate-chrome
-      
-          chmod +x curl-impersonate-chrome
-          sudo mv curl-impersonate-chrome /usr/local/bin/
-
+          # 1. Create a directory for the tool
+          mkdir -p $HOME/ci-tool
+          cd $HOME/ci-tool
+          
+          # 2. Download the TARBALL (Correct URL for v0.6.1)
+          wget https://github.com/lwthiker/curl-impersonate/releases/download/v0.6.1/curl-impersonate-v0.6.1-x86_64-linux-gnu.tar.gz
+          
+          # 3. Extract the contents
+          tar -xvf curl-impersonate-v0.6.1-x86_64-linux-gnu.tar.gz
+          
+          # 4. Clean up
+          rm curl-impersonate-v0.6.1-x86_64-linux-gnu.tar.gz
+          
+          # 5. Add this folder to the System PATH so subsequent steps can find the executable
+          echo "$HOME/ci-tool" >> $GITHUB_PATH
 
       - name: Fetch sitemap and extract scratch URLs
         run: |
           mkdir -p tmp datos
 
-          # 1️⃣ Fetch sitemap, save headers + cookies
+          # Now we can just call the command because we added it to GITHUB_PATH
           curl-impersonate-chrome \
             --compressed \
             --location \
+            -k \
             -D tmp/sitemap.headers \
             -c tmp/cookies.txt \
             "${{ inputs.sitemap_url }}" \
             -o tmp/sitemap.xml
 
-          # 2️⃣ Extract URLs containing /scratch/
+          # Extract URLs (Ensure grep doesn't fail if no matches found immediately)
           grep -oP '(?<=<loc>).*?(?=</loc>)' tmp/sitemap.xml \
             | grep '/scratch/' \
-            > tmp/scratch_urls.txt
+            > tmp/scratch_urls.txt || true
 
-          echo "Found $(wc -l < tmp/scratch_urls.txt) scratch URLs"
+          # Check if file exists and has content
+          if [ -s tmp/scratch_urls.txt ]; then
+            echo "Found $(wc -l < tmp/scratch_urls.txt) scratch URLs"
+          else
+            echo "No scratch URLs found or sitemap download failed."
+            exit 1
+          fi
 
       - name: Download scratch pages using same cookies
         run: |
           i=0
+          # Ensure the file exists before reading
+          if [ ! -f tmp/scratch_urls.txt ]; then echo "No URL list found"; exit 0; fi
+
           while read -r url; do
             i=$((i+1))
             echo "[$i] Fetching $url"
 
-            # Safe filename
+            # Safe filename: remove http/s, replace / with _
             filename=$(echo "$url" | sed 's|https\?://||; s|/|_|g').html
 
             curl-impersonate-chrome \
               --compressed \
               --location \
+              -k \
               -b tmp/cookies.txt \
               -c tmp/cookies.txt \
               -H "Referer: ${{ inputs.sitemap_url }}" \
@@ -68,13 +85,19 @@ jobs:
               -o "datos/$filename"
 
             # ⏳ be nice
-            sleep 10
+            sleep 5
           done < tmp/scratch_urls.txt
 
       - name: Commit downloaded HTML files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add datos
-          git commit -m "Add scratch page HTML snapshots" || echo "Nothing to commit"
-          git push
+          
+          # Check if there are files to add
+          if [ -d "datos" ] && [ "$(ls -A datos)" ]; then
+             git add datos
+             git commit -m "Add scratch page HTML snapshots" || echo "Nothing to commit"
+             git push
+          else
+             echo "No data downloaded, skipping commit."
+          fi
