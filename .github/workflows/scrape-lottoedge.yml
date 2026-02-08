@@ -16,26 +16,16 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install curl-impersonate
+      - name: Install curl-impersonate (static binary)
         run: |
           sudo apt-get update
           sudo apt-get install -y wget ca-certificates
-          wget -qO- https://raw.githubusercontent.com/lwthiker/curl-impersonate/main/install.sh | sudo bash
-
-      - name: Debug curl-impersonate installation
-        run: |
-          echo "PATH=$PATH"
-          ls -la /usr/local/bin || true
-          ls -la /usr/bin | grep impersonate || true
-          find / -type f -name "curl-impersonate*" 2>/dev/null || true
       
-      - name: Add /usr/local/bin to PATH
-        run: |
-          echo "/usr/local/bin" >> $GITHUB_PATH
+          wget -O curl-impersonate-chrome \
+            https://github.com/lwthiker/curl-impersonate/releases/latest/download/curl-impersonate-chrome-linux-amd64
       
-      - name: Verify curl-impersonate
-        run: |
-          curl-impersonate-chrome --version
+          chmod +x curl-impersonate-chrome
+          sudo mv curl-impersonate-chrome /usr/local/bin/
 
 
       - name: Fetch sitemap and extract scratch URLs
