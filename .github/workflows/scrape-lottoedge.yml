@@ -63,13 +63,13 @@ jobs:
               -o "datos/$filename"
 
             # ⏳ be nice
-            sleep 5
+            sleep 10
           done < tmp/scratch_urls.txt
 
       - name: Commit downloaded HTML files
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add data/html
+          git add datos
           git commit -m "Add scratch page HTML snapshots" || echo "Nothing to commit"
           git push
