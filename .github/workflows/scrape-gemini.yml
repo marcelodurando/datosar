@@ -80,7 +80,7 @@ jobs:
               driver.get(sitemap_url)
               time.sleep(10)
               content = driver.page_source
-              
+              print(content)
               print("🔍 Parsing URLs from source...")
               found_urls = re.findall(r'(https://lottoedge\.com/[\w\-]+/scratch/[\w\-]+/)', content)
               urls = list(set(found_urls))
