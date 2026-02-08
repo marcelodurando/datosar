@@ -1,4 +1,4 @@
-name: Scrape scratch pages (Python/Selenium)
+name: Scrape scratch pages (Full Browser Mode)
 
 on:
   workflow_dispatch:
@@ -7,6 +7,7 @@ on:
         description: "Sitemap URL"
         required: true
         type: string
+        default: "https://lottoedge.com/florida-lottery-sitemap.xml"
 
 permissions:
   contents: write
@@ -25,73 +26,79 @@ jobs:
 
       - name: Install dependencies
         run: |
-          # Install Chrome (needed for the driver)
+          # Install Chrome
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
           
           # Install Python libraries
-          pip install undetected-chromedriver selenium requests lxml
+          # We need undetected-chromedriver to bypass CF
+          pip install undetected-chromedriver selenium
 
       - name: Run Scraper Script
         env:
           SITEMAP_URL: ${{ inputs.sitemap_url }}
         run: |
-          # Create output directory
           mkdir -p datos/scratches
           
-          # Create and run the python script inline
           cat <<EOF > scraper.py
           import os
           import time
           import random
-          import requests
+          import re
           import undetected_chromedriver as uc
           from selenium.webdriver.common.by import By
-          from xml.etree import ElementTree
 
           sitemap_url = os.environ["SITEMAP_URL"]
           output_dir = "datos/scratches"
           
-          print(f"🚀 Starting scraper for: {sitemap_url}")
-
-          # 1. Fetch Sitemap using standard requests (Cloudflare usually allows sitemaps)
-          # If this fails, we can use the driver for this too.
-          try:
-              headers = {"User-Agent": "Mozilla/5.0"}
-              response = requests.get(sitemap_url, headers=headers)
-              if response.status_code != 200:
-                  print(f"❌ Failed to fetch sitemap: {response.status_code}")
-                  exit(1)
-              
-              # Parse XML
-              root = ElementTree.fromstring(response.content)
-              # Extract URLs containing '/scratch/'
-              # Namespace handling for sitemaps
-              urls = []
-              for child in root:
-                  url = child[0].text
-                  if '/scratch/' in url:
-                      urls.append(url)
-              
-              print(f"✅ Found {len(urls)} scratch URLs in sitemap")
-          except Exception as e:
-              print(f"❌ Error parsing sitemap: {e}")
-              exit(1)
-
-          if not urls:
-              print("No URLs found.")
-              exit(0)
-
-          # 2. Setup Undetected Chromedriver
+          print("🔧 Initializing Undetected Chrome Driver...")
+          
           options = uc.ChromeOptions()
-          options.add_argument('--headless=new') # New headless mode is less detectable
+          # HEADLESS MODE: 'new' is required to bypass detection
+          options.add_argument('--headless=new') 
           options.add_argument('--no-sandbox')
           options.add_argument('--disable-dev-shm-usage')
           options.add_argument('--window-size=1920,1080')
+          options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36')
           
-          print("🔧 Initializing Chrome Driver...")
-          driver = uc.Chrome(options=options, version_main=114) # Force version if needed, or let auto-detect
+          # Initialize driver
+          driver = uc.Chrome(options=options)
 
+          urls = []
+
+          try:
+              print(f"🚀 Visiting sitemap via Browser: {sitemap_url}")
+              driver.get(sitemap_url)
+              
+              # WAIT for Cloudflare challenge to pass
+              print("⏳ Waiting 10 seconds for Cloudflare...")
+              time.sleep(10)
+              
+              # Get page content
+              content = driver.page_source
+              
+              # Use Regex to find URLs because Chrome might wrap XML in HTML tags
+              # Looking for https://lottoedge.com/.../scratch/...
+              # This pattern looks for the specific structure of scratch off urls
+              print("🔍 Parsing URLs from source...")
+              found_urls = re.findall(r'(https://lottoedge\.com/[\w\-]+/scratch/[\w\-]+/)', content)
+              
+              # Deduplicate
+              urls = list(set(found_urls))
+              print(f"✅ Found {len(urls)} unique scratch URLs.")
+
+          except Exception as e:
+              print(f"❌ Error fetching sitemap: {e}")
+              driver.quit()
+              exit(1)
+
+          if not urls:
+              print("❌ No URLs found. Dumping page source for debugging:")
+              print(content[:500]) # Print first 500 chars to see if blocked
+              driver.quit()
+              exit(1)
+
+          # --- Start Scraping Pages ---
           count = 0
           max_count = 5
 
@@ -106,21 +113,23 @@ jobs:
               try:
                   driver.get(url)
                   
-                  # ⏳ Random sleep to look human and let Cloudflare JS challenge finish
+                  # ⏳ Human wait time (8-15 seconds)
                   sleep_time = random.uniform(8, 15)
                   time.sleep(sleep_time)
                   
-                  # Check if we are still on a challenge page
-                  title = driver.title.lower()
-                  if "just a moment" in title or "attention required" in title:
-                      print("⚠️ Still stuck on Cloudflare challenge. Waiting longer...")
-                      time.sleep(10)
+                  # Check if trapped in CF challenge
+                  if "Just a moment" in driver.title:
+                       print("⚠️  Caught in challenge loop. Waiting extra 10s...")
+                       time.sleep(10)
 
-                  # Get HTML source
                   html_content = driver.page_source
                   
+                  # Simple validation: Check if content is too short (likely a block page)
+                  if len(html_content) < 1000:
+                      print("⚠️  Page content surprisingly small. Might be blocked.")
+
                   # Save file
-                  safe_filename = url.replace("https://", "").replace("http://", "").replace("/", "_") + ".html"
+                  safe_filename = url.replace("https://", "").replace("http://", "").replace("/", "_").strip("_") + ".html"
                   file_path = os.path.join(output_dir, safe_filename)
                   
                   with open(file_path, "w", encoding="utf-8") as f:
@@ -131,10 +140,10 @@ jobs:
               except Exception as e:
                   print(f"❌ Failed to scrape {url}: {e}")
 
+          print("🏁 Done. Closing driver.")
           driver.quit()
           EOF
 
-          # Run the python script
           python scraper.py
 
       - name: Commit downloaded HTML files
