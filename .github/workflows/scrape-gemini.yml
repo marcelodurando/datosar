@@ -19,6 +19,14 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Install and Run Cloudflare WARP
+        uses: fscarmen/warp-on-actions@v1.1
+        with:
+          stack: dual  # Enable IPv4 and IPv6
+
+      - name: Check new IP (Optional, just to verify)
+        run: curl -s https://ifconfig.me
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
