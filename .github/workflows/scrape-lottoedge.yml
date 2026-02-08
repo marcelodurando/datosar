@@ -18,10 +18,13 @@ jobs:
 
       - name: Install curl-impersonate
         run: |
-          sudo apt update
-          sudo apt install -y wget curl gnupg
-          wget https://github.com/lwthiker/curl-impersonate/releases/latest/download/curl-impersonate-chrome_amd64.deb
-          sudo dpkg -i curl-impersonate-chrome_amd64.deb
+          sudo apt-get update
+          sudo apt-get install -y wget ca-certificates
+          wget -qO- https://raw.githubusercontent.com/lwthiker/curl-impersonate/main/install.sh | sudo bash
+
+      - name: Verify curl-impersonate
+        run: |
+          curl-impersonate-chrome --version
 
       - name: Fetch sitemap and extract scratch URLs
         run: |
