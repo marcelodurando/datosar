@@ -7,6 +7,9 @@ on:
         description: "Sitemap URL"
         required: true
         type: string
+        
+permissions:
+  contents: write
 
 jobs:
   scrape:
@@ -36,7 +39,7 @@ jobs:
 
       - name: Fetch sitemap and extract scratch URLs
         run: |
-          mkdir -p tmp datos
+          mkdir -p tmp datos/scratches
 
           # Now we can just call the command because we added it to GITHUB_PATH
           curl-impersonate-chrome \
@@ -82,7 +85,7 @@ jobs:
               -c tmp/cookies.txt \
               -H "Referer: ${{ inputs.sitemap_url }}" \
               "$url" \
-              -o "datos/$filename"
+              -o "datos/scratches/$filename"
 
             # ⏳ be nice
             sleep 5
@@ -95,7 +98,7 @@ jobs:
           
           # Check if there are files to add
           if [ -d "datos" ] && [ "$(ls -A datos)" ]; then
-             git add datos
+             git add datos/scratches
              git commit -m "Add scratch page HTML snapshots" || echo "Nothing to commit"
              git push
           else
