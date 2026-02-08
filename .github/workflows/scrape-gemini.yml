@@ -1,4 +1,4 @@
-name: Scrape scratch pages (Fixed Version)
+name: Scrape scratch pages (Fixed Commit)
 
 on:
   workflow_dispatch:
@@ -26,18 +26,14 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          # 1. Install Chrome
           sudo apt-get update
           sudo apt-get install -y google-chrome-stable
           
-          # 2. Get the Major Version of installed Chrome (e.g., 120, 130, 144)
+          # Detect Chrome Version
           CHROME_VERSION=$(google-chrome --version | grep -oP '\d+' | head -1)
           echo "Detected Chrome Version: $CHROME_VERSION"
-          
-          # Save it to GITHUB_ENV so the Python step can see it
           echo "CHROME_VERSION_MAIN=$CHROME_VERSION" >> $GITHUB_ENV
           
-          # 3. Install Python libs
           pip install undetected-chromedriver selenium
 
       - name: Run Scraper Script
@@ -68,27 +64,17 @@ jobs:
           options.add_argument('--window-size=1920,1080')
           options.add_argument('--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36')
           
-          # FIX: Force the driver version to match the installed browser
           driver = uc.Chrome(options=options, version_main=chrome_version)
 
           urls = []
-
           try:
               print(f"🚀 Visiting sitemap via Browser: {sitemap_url}")
               driver.get(sitemap_url)
-              
-              # Wait for Cloudflare
-              print("⏳ Waiting 10 seconds for Cloudflare...")
               time.sleep(10)
-              
-              # Get content
               content = driver.page_source
               
-              # Extract URLs using Regex
               print("🔍 Parsing URLs from source...")
               found_urls = re.findall(r'(https://lottoedge\.com/[\w\-]+/scratch/[\w\-]+/)', content)
-              
-              # Deduplicate
               urls = list(set(found_urls))
               print(f"✅ Found {len(urls)} unique scratch URLs.")
 
@@ -98,66 +84,61 @@ jobs:
               exit(1)
 
           if not urls:
-              print("❌ No URLs found. Dumping page source head:")
-              print(content[:500]) 
+              print("❌ No URLs found.")
               driver.quit()
-              exit(0) # Exit 0 to avoid failing workflow if just empty
+              exit(0)
 
-          # --- Start Scraping Pages ---
           count = 0
           max_count = 5
 
           for url in urls:
               if count >= max_count:
-                  print("🛑 Limit of 5 reached.")
                   break
-              
               count += 1
               print(f"[{count}/{max_count}] Navigating to: {url}")
               
               try:
                   driver.get(url)
+                  time.sleep(random.uniform(8, 15))
                   
-                  # Human wait time
-                  sleep_time = random.uniform(8, 15)
-                  time.sleep(sleep_time)
-                  
-                  # Check for challenge loop
                   if "Just a moment" in driver.title:
-                       print("⚠️  Caught in challenge loop. Waiting extra 10s...")
                        time.sleep(10)
 
                   html_content = driver.page_source
-                  
-                  if len(html_content) < 1000:
-                      print("⚠️  Page content surprisingly small.")
-
                   safe_filename = url.replace("https://", "").replace("http://", "").replace("/", "_").strip("_") + ".html"
                   file_path = os.path.join(output_dir, safe_filename)
                   
                   with open(file_path, "w", encoding="utf-8") as f:
                       f.write(html_content)
-                      
                   print(f"💾 Saved: {safe_filename}")
-
               except Exception as e:
                   print(f"❌ Failed to scrape {url}: {e}")
 
-          print("🏁 Done. Closing driver.")
           driver.quit()
           EOF
 
           python scraper.py
+          
+          # Cleanup script so it doesn't appear in git status
+          rm scraper.py
 
       - name: Commit downloaded HTML files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          if [ -d "datos/scratches" ] && [ "$(ls -A datos/scratches)" ]; then
+          # Check if directory exists
+          if [ -d "datos/scratches" ]; then
              git add datos/scratches
-             git commit -m "Add scratch page HTML snapshots [skip ci]"
-             git push
+             
+             # 🔍 CHECK IF THERE ARE CHANGES STAGED
+             if ! git diff --cached --exit-code; then
+               echo "📝 Changes detected. Committing..."
+               git commit -m "Add scratch page HTML snapshots [skip ci]"
+               git push
+             else
+               echo "✅ No changes detected (files match existing repo). Skipping commit."
+             fi
           else
-             echo "No data downloaded, skipping commit."
+             echo "⚠️ No data directory found."
           fi
