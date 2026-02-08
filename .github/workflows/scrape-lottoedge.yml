@@ -16,13 +16,13 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Install curl-impersonate (static binary)
+      - name: Install curl-impersonate (working)
         run: |
           sudo apt-get update
           sudo apt-get install -y wget ca-certificates
       
           wget -O curl-impersonate-chrome \
-            https://github.com/lwthiker/curl-impersonate/releases/latest/download/curl-impersonate-chrome-linux-amd64
+            https://github.com/lwthiker/curl-impersonate/releases/download/v0.6.1/curl-impersonate-chrome
       
           chmod +x curl-impersonate-chrome
           sudo mv curl-impersonate-chrome /usr/local/bin/
