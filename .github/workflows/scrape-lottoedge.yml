@@ -21,10 +21,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y wget ca-certificates
           wget -qO- https://raw.githubusercontent.com/lwthiker/curl-impersonate/main/install.sh | sudo bash
-
+      
+      - name: Add /usr/local/bin to PATH
+        run: |
+          echo "/usr/local/bin" >> $GITHUB_PATH
+      
       - name: Verify curl-impersonate
         run: |
           curl-impersonate-chrome --version
+
 
       - name: Fetch sitemap and extract scratch URLs
         run: |
