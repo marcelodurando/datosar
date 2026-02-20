@@ -50,7 +50,7 @@
     <meta name="description" content="Encontrá todas las cotizaciones de Cotizaci&oacute;n de Monedas en InvertirOnline.com. Ingresá e informate.">
 
     
-    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1771602161" />
+    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1771602723" />
 
 <link href="/Content/Styles/toastr?v=HoCfD4gLIkLhlSGKdpl1svporuy1f6VtgzxxVinFS2g1" rel="stylesheet"/>
 <link href="/Content/TestInversor?v=kmrQPIMZhVbFMZUDl6GF29_ATkjLKVJiR4EThG_ks2U1" rel="stylesheet"/>
@@ -685,21 +685,21 @@
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Merval:</strong>
-                    2.863.878,00
+                    2.838.737,00
                 </span>
 
-                <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,87</span>%
+                <span class="down ml10">
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">-0,01</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
                 <span>
                     <strong>Bolsa:</strong>
-                    116.995.656,00
+                    116.154.990,00
                 </span>
 
                 <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,81</span>%
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,08</span>%
                 </span>
             </div>
 
@@ -822,7 +822,7 @@
 
                     <td class="tar"> 1.360,0000</td>
                     <td class="tar"> 1.410,0000</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar neutral">
                         <strong>0 %</strong>
                     </td>
@@ -834,11 +834,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.410,2024</td>
-                    <td class="tar"> 1.410,9833</td>
-                    <td class="tac"> 20/2/2026 12:30:00</td>
+                    <td class="tar"> 1.410,1360</td>
+                    <td class="tar"> 1.410,8502</td>
+                    <td class="tac"> 20/2/2026 12:40:00</td>
                     <td class="tar up">
-                        <strong>0,1359 %</strong>
+                        <strong>0,1264 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -847,11 +847,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.408,6478</td>
-                    <td class="tar"> 1.411,8388</td>
-                    <td class="tac"> 20/2/2026 12:30:00</td>
+                    <td class="tar"> 1.408,1761</td>
+                    <td class="tar"> 1.412,1537</td>
+                    <td class="tac"> 20/2/2026 12:40:00</td>
                     <td class="tar down">
-                        <strong>-0,1796 %</strong>
+                        <strong>-0,1573 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -861,11 +861,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.453,2710</td>
-                    <td class="tar"> 1.453,8474</td>
-                    <td class="tac"> 20/2/2026 12:30:00</td>
+                    <td class="tar"> 1.453,4535</td>
+                    <td class="tar"> 1.454,1055</td>
+                    <td class="tac"> 20/2/2026 12:40:00</td>
                     <td class="tar up">
-                        <strong>0,3775 %</strong>
+                        <strong>0,3953 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -874,11 +874,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1.451,3203</td>
-                    <td class="tar"> 1.456,0805</td>
-                    <td class="tac"> 20/2/2026 12:30:00</td>
+                    <td class="tar"> 1.451,0693</td>
+                    <td class="tar"> 1.455,9325</td>
+                    <td class="tac"> 20/2/2026 12:40:00</td>
                     <td class="tar up">
-                        <strong>0,4813 %</strong>
+                        <strong>0,4711 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -887,11 +887,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 267,1008</td>
-                    <td class="tar"> 267,2532</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 267,0061</td>
+                    <td class="tar"> 267,1585</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar up">
-                        <strong>0,4100 %</strong>
+                        <strong>0,3800 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -902,7 +902,7 @@
 
                     <td class="tar"> 0,0124</td>
                     <td class="tar"> 0,0124</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar neutral">
                         <strong>0 %</strong>
                     </td>
@@ -913,11 +913,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,5996</td>
-                    <td class="tar"> 1,5997</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 1,6019</td>
+                    <td class="tar"> 1,6019</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar down">
-                        <strong>-0,5300 %</strong>
+                        <strong>-0,3900 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -926,11 +926,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 8,9504</td>
-                    <td class="tar"> 8,9574</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 8,9527</td>
+                    <td class="tar"> 8,9597</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar down">
-                        <strong>-0,1200 %</strong>
+                        <strong>-0,1000 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -941,7 +941,7 @@
 
                     <td class="tar"> 1.856,1000</td>
                     <td class="tar"> 1.872,3720</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar neutral">
                         <strong>0 %</strong>
                     </td>
@@ -954,7 +954,7 @@
 
                     <td class="tar"> 1.622,6040</td>
                     <td class="tar"> 1.636,6587</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar neutral">
                         <strong>0 %</strong>
                     </td>
@@ -965,11 +965,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 35,7374</td>
-                    <td class="tar"> 35,7377</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 35,7441</td>
+                    <td class="tar"> 35,7444</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar down">
-                        <strong>-0,9700 %</strong>
+                        <strong>-0,9500 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -978,11 +978,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 1,1789</td>
-                    <td class="tar"> 1,1789</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 1,1798</td>
+                    <td class="tar"> 1,1799</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar up">
-                        <strong>0,2100 %</strong>
+                        <strong>0,3000 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -991,11 +991,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 0,1922</td>
-                    <td class="tar"> 0,1923</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tar"> 0,1924</td>
+                    <td class="tar"> 0,1925</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar up">
-                        <strong>0,6300 %</strong>
+                        <strong>0,7300 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1006,7 +1006,7 @@
 
                     <td class="tar"> 0,0254</td>
                     <td class="tar"> 0,0261</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar down">
                         <strong>-0,7200 %</strong>
                     </td>
@@ -1019,7 +1019,7 @@
 
                     <td class="tar"> 0,0012</td>
                     <td class="tar"> 0,0012</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar down">
                         <strong>-0,2600 %</strong>
                     </td>
@@ -1032,9 +1032,9 @@
 
                     <td class="tar"> 0,0582</td>
                     <td class="tar"> 0,0583</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar up">
-                        <strong>0,5000 %</strong>
+                        <strong>0,4300 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1043,11 +1043,11 @@
                         </strong>
                     </td>
 
-                    <td class="tar"> 0,6435</td>
-                    <td class="tar"> 0,6436</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
-                    <td class="tar down">
-                        <strong>-0,2100 %</strong>
+                    <td class="tar"> 0,6449</td>
+                    <td class="tar"> 0,6450</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
+                    <td class="tar up">
+                        <strong>0,0100 %</strong>
                     </td>
                 </tr>
                 <tr>
@@ -1058,7 +1058,7 @@
 
                     <td class="tar"> 1,3502</td>
                     <td class="tar"> 1,3503</td>
-                    <td class="tac"> 20/2/2026 12:35:00</td>
+                    <td class="tac"> 20/2/2026 12:45:00</td>
                     <td class="tar up">
                         <strong>0,4000 %</strong>
                     </td>
