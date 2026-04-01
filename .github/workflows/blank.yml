@@ -78,7 +78,7 @@ jobs:
           [mayorista]="https://mercados.ambito.com//dolar/mayorista/variacion"
           [tarjeta]="https://mercados.ambito.com//dolarturista/variacion"
           [cripto]="https://mercados.ambito.com//dolarcripto/variacion"
-          [riesgopais]="https://mercados.ambito.com/riesgopais/historico-general/1/,"
+          # [riesgopais]="https://mercados.ambito.com/riesgopais/historico-general/1/,"
           [lideres]="https://mercados.ambito.com/acciones/lideres"
           [general]="https://mercados.ambito.com/acciones/nolideres"
           [riesgopais_week]="https://mercados.ambito.com//riesgopais/grafico/semanal"
@@ -88,8 +88,9 @@ jobs:
           for name in "${!urls[@]}"; do
                 echo "${urls[$name]}"
                 curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
-                if [ $? -ne 0 ]; then
-                  echo "Curl error for $name"
+                if ! curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"; then
+                  echo "Curl failed for $name"
+                  continue  
                 fi
               done
 
