@@ -85,12 +85,12 @@ jobs:
           [dolares_infobae]="https://www.infobae.com/pf/api/v3/content/fetch/dolar-managment?query=undefined&d=&mxId=00000000&_website=infobae"
           )        
           for name in "${!urls[@]}"; do
-            echo "${urls[$name]}"
-            curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
-            if [ $? -ne 0 ]; then
-              echo "Curl error: $error_output"
-            fi
-          done
+                echo "${urls[$name]}"
+                curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
+                if [ $? -ne 0 ]; then
+                  echo "Curl error for $name"
+                fi
+              done
 
       - name: dolar hoy
         run: |
