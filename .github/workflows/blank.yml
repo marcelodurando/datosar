@@ -68,6 +68,7 @@ jobs:
           curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar         
 
       - name: ambito dolares
+        continue-on-error: true
         run: |
           declare -A urls=(
           [oficial]="https://mercados.ambito.com//dolar/oficial/variacion"
