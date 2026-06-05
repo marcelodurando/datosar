@@ -50,7 +50,7 @@
     <meta name="description" content="Encontrá todas las cotizaciones de Cotizaci&oacute;n de Monedas en InvertirOnline.com. Ingresá e informate.">
 
     
-    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1780648442" />
+    <link rel="canonical" href="https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas?t=1780660138" />
 
 <link href="/Content/Styles/toastr?v=HoCfD4gLIkLhlSGKdpl1svporuy1f6VtgzxxVinFS2g1" rel="stylesheet"/>
 <link href="/Content/TestInversor?v=kmrQPIMZhVbFMZUDl6GF29_ATkjLKVJiR4EThG_ks2U1" rel="stylesheet"/>
@@ -700,8 +700,8 @@
                     3.176.579,50
                 </span>
 
-                <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,39</span>%
+                <span class="neutral ml10">
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,00</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
@@ -710,8 +710,8 @@
                     135.094.820,00
                 </span>
 
-                <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,31</span>%
+                <span class="neutral ml10">
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,00</span>%
                 </span>
             </div>
 
@@ -861,7 +861,7 @@
 
                     <td class="tar"> 1.449,5817</td>
                     <td class="tar"> 1.690,0000</td>
-                    <td class="tac"> 5/6/2026 05:30:00</td>
+                    <td class="tac"> 5/6/2026 06:00:00</td>
                     <td class="tar up">
                         <strong>16,0747 %</strong>
                     </td>
@@ -888,7 +888,7 @@
 
                     <td class="tar"> 1.505,9251</td>
                     <td class="tar"> 1.604,9383</td>
-                    <td class="tac"> 5/6/2026 05:30:00</td>
+                    <td class="tac"> 5/6/2026 06:00:00</td>
                     <td class="tar up">
                         <strong>6,2847 %</strong>
                     </td>
