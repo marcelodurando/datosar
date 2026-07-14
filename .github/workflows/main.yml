@@ -2,7 +2,7 @@ name: Download HTML pages
 
 on:
   schedule:
-    - cron: '*/25 * * * *' # every hour
+    - cron: "*/25 * * * *"
   workflow_dispatch:
 
 permissions:
