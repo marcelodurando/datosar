@@ -3,12 +3,19 @@ name: Scrape BNA
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/setup-node@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
         with:
           node-version: 22
 
@@ -18,37 +25,52 @@ jobs:
           npm install playwright
           npx playwright install --with-deps chromium
 
-      - name: Scrape
+      - name: Scrape BNA
         run: |
+          mkdir -p datos
+
           cat > scraper.mjs <<'EOF'
           import { chromium } from 'playwright';
           import fs from 'fs';
 
-          const browser = await chromium.launch({ headless: true });
-          const page = await browser.newPage();
+          const browser = await chromium.launch({
+            headless: true
+          });
 
-          await page.goto('https://bna.com.ar/Personas', {
-            waitUntil: 'networkidle',
+          const page = await browser.newPage({
+            viewport: { width: 1600, height: 900 }
+          });
+
+          console.log("Opening BNA...");
+
+          await page.goto("https://bna.com.ar/Personas", {
+            waitUntil: "networkidle",
             timeout: 120000
           });
 
+          // Give the page a few seconds in case content loads after network idle
           await page.waitForTimeout(5000);
 
-          fs.writeFileSync('bna.html', await page.content());
+          fs.writeFileSync("datos/bna.html", await page.content());
 
-          await page.screenshot({
-            path: 'bna.png',
-            fullPage: true
-          });
+          console.log("Saved datos/bna.html");
 
           await browser.close();
           EOF
 
           node scraper.mjs
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: bna
-          path: |
-            bna.html
-            bna.png
+      - name: Commit updated HTML
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add datos/bna.html
+
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+
+          git commit -m "Update BNA HTML"
+          git push
