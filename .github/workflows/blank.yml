@@ -2,7 +2,7 @@ name: Download HTML pages 6 minutes
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # every hour
+    - cron: '7,37 * * * *' # every hour
   workflow_dispatch:
 
 permissions:
