@@ -1,48 +1,54 @@
-- name: Scrape BNA
-  run: |
-    cat > scraper.mjs <<'EOF'
-    import { chromium } from 'playwright';
-    import fs from 'fs';
+name: Scrape BNA
 
-    const browser = await chromium.launch({
-      headless: true
-    });
+on:
+  workflow_dispatch:
 
-    const page = await browser.newPage({
-      viewport: { width: 1600, height: 900 }
-    });
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
 
-    console.log("Opening BNA...");
+    steps:
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
 
-    await page.goto("https://bna.com.ar/Personas", {
-      waitUntil: "networkidle",
-      timeout: 120000
-    });
+      - name: Install Playwright
+        run: |
+          npm init -y
+          npm install playwright
+          npx playwright install --with-deps chromium
 
-    // Give any delayed JS time to render
-    await page.waitForTimeout(5000);
+      - name: Scrape
+        run: |
+          cat > scraper.mjs <<'EOF'
+          import { chromium } from 'playwright';
+          import fs from 'fs';
 
-    // Save the rendered HTML
-    const html = await page.content();
-    fs.writeFileSync("bna.html", html);
+          const browser = await chromium.launch({ headless: true });
+          const page = await browser.newPage();
 
-    // Optional: save a screenshot too
-    await page.screenshot({
-      path: "bna.png",
-      fullPage: true
-    });
+          await page.goto('https://bna.com.ar/Personas', {
+            waitUntil: 'networkidle',
+            timeout: 120000
+          });
 
-    console.log("Saved HTML and screenshot.");
+          await page.waitForTimeout(5000);
 
-    await browser.close();
-    EOF
+          fs.writeFileSync('bna.html', await page.content());
 
-    node scraper.mjs
+          await page.screenshot({
+            path: 'bna.png',
+            fullPage: true
+          });
 
-- name: Upload artifacts
-  uses: actions/upload-artifact@v4
-  with:
-    name: bna
-    path: |
-      bna.html
-      bna.png
+          await browser.close();
+          EOF
+
+          node scraper.mjs
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bna
+          path: |
+            bna.html
+            bna.png
