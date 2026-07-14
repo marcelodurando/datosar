@@ -1,6 +1,8 @@
 name: Scrape BNA
 
 on:
+  schedule:
+    - cron: '*/30 * * * *' # every hour
   workflow_dispatch:
 
 permissions:
