@@ -1,0 +1,48 @@
+- name: Scrape BNA
+  run: |
+    cat > scraper.mjs <<'EOF'
+    import { chromium } from 'playwright';
+    import fs from 'fs';
+
+    const browser = await chromium.launch({
+      headless: true
+    });
+
+    const page = await browser.newPage({
+      viewport: { width: 1600, height: 900 }
+    });
+
+    console.log("Opening BNA...");
+
+    await page.goto("https://bna.com.ar/Personas", {
+      waitUntil: "networkidle",
+      timeout: 120000
+    });
+
+    // Give any delayed JS time to render
+    await page.waitForTimeout(5000);
+
+    // Save the rendered HTML
+    const html = await page.content();
+    fs.writeFileSync("bna.html", html);
+
+    // Optional: save a screenshot too
+    await page.screenshot({
+      path: "bna.png",
+      fullPage: true
+    });
+
+    console.log("Saved HTML and screenshot.");
+
+    await browser.close();
+    EOF
+
+    node scraper.mjs
+
+- name: Upload artifacts
+  uses: actions/upload-artifact@v4
+  with:
+    name: bna
+    path: |
+      bna.html
+      bna.png
