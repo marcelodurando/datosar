@@ -6,7 +6,11 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write   # allow pushing changes
+  contents: write
+
+concurrency:
+  group: datos-download
+  cancel-in-progress: false
 
 jobs:
   download-pages:
@@ -17,102 +21,114 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
 
       - name: Create datos folder
         run: mkdir -p datos
 
-        
-      - name: Check ip
-        run: |         
-          curl https://ipinfo.io/ip
-          
+      - name: Check IP
+        run: |
+          curl -s https://ipinfo.io/ip || true
+
       - name: Download dolarhoy HTML
         run: |
           TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/?t=${TIMESTAMP}" -o datos/dolarhoy6
-          
-      - name: Download dolarhoy cotis
-        run: |
-          TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/cotizaciones?t=${TIMESTAMP}" -o datos/dolarhoycotizaciones6
+          curl -sL "https://dolarhoy.com/?t=${TIMESTAMP}" -o datos/dolarhoy6 || true
 
-      - name: Download dolarhoy cotis oficial
+      - name: Download dolarhoy cotizaciones
         run: |
           TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/cotizacion-dolar-oficial?t=${TIMESTAMP}" -o datos/dolarhoy-oficial
-          
+          curl -sL "https://dolarhoy.com/cotizaciones?t=${TIMESTAMP}" -o datos/dolarhoycotizaciones6 || true
+
+      - name: Download dolarhoy cotizacion oficial
+        run: |
+          TIMESTAMP=$(date +%s)
+          curl -sL "https://dolarhoy.com/cotizacion-dolar-oficial?t=${TIMESTAMP}" -o datos/dolarhoy-oficial || true
+
       - name: Download dolarhoy mep
         run: |
           TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/cotizacion-dolar-bolsa?t=${TIMESTAMP}" -o datos/dolarhoy-bolsa
+          curl -sL "https://dolarhoy.com/cotizacion-dolar-bolsa?t=${TIMESTAMP}" -o datos/dolarhoy-bolsa || true
 
       - name: Download dolarhoy ccl
         run: |
           TIMESTAMP=$(date +%s)
-          curl -s "https://dolarhoy.com/cotizacion-dolar-ccl?t=${TIMESTAMP}" -o datos/dolarhoy-bolsa
+          curl -sL "https://dolarhoy.com/cotizacion-dolar-ccl?t=${TIMESTAMP}" -o datos/dolarhoy-ccl || true
 
-      - name: Download IOL 
+      - name: Download IOL
         run: |
-          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol2
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol2 || true
 
-      - name: Download IOL ar
+      - name: Download IOL Argentina
         run: |
-          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina -o datos/iol-mer-ar
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina -o datos/iol-mer-ar || true
 
-      - name: Download IOL us
+      - name: Download IOL USA
         run: |
-          curl -sL https://iol.invertironline.com/mercado/cotizaciones/estados-unidos -o datos/iol-mer-us        
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/estados-unidos -o datos/iol-mer-us || true
 
       - name: Download IOL monedas
         run: |
-          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar         
+          curl -sL https://iol.invertironline.com/mercado/cotizaciones/argentina/monedas -o datos/iol-mon-ar || true
 
-      - name: ambito dolares
-        continue-on-error: true
+      - name: Download Ambito / Infobae data
         run: |
           declare -A urls=(
-          [oficial]="https://mercados.ambito.com//dolar/oficial/variacion"
-          [blue]="https://mercados.ambito.com//dolar/informal/variacion"
-          [bolsa]="https://mercados.ambito.com//dolarrava/mep/variacion"
-          [contadoconliqui]="https://mercados.ambito.com//dolarrava/cl/variacion"
-          [mayorista]="https://mercados.ambito.com//dolar/mayorista/variacion"
-          [tarjeta]="https://mercados.ambito.com//dolarturista/variacion"
-          [cripto]="https://mercados.ambito.com//dolarcripto/variacion"
-          # [riesgopais]="https://mercados.ambito.com/riesgopais/historico-general/1/,"
-          [lideres]="https://mercados.ambito.com/acciones/lideres"
-          [general]="https://mercados.ambito.com/acciones/nolideres"
-          [riesgopais_week]="https://mercados.ambito.com//riesgopais/grafico/semanal"
-          [riesgopais_ultimo]="https://mercados.ambito.com//riesgopais/variacion-ultimo"
-          [dolares_infobae]="https://storage.googleapis.com/dolar-data/dolar-data.json"
-          )        
-          for name in "${!urls[@]}"; do
-                echo "${urls[$name]}"
-                curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"
-                if ! curl -m 20 -s --fail --show-error "${urls[$name]}" -o "datos/$name.json"; then
-                  echo "Curl failed for $name"
-                  continue  
-                fi
-              done
+            [oficial]="https://mercados.ambito.com/dolar/oficial/variacion"
+            [blue]="https://mercados.ambito.com/dolar/informal/variacion"
+            [bolsa]="https://mercados.ambito.com/dolarrava/mep/variacion"
+            [contadoconliqui]="https://mercados.ambito.com/dolarrava/cl/variacion"
+            [mayorista]="https://mercados.ambito.com/dolar/mayorista/variacion"
+            [tarjeta]="https://mercados.ambito.com/dolarturista/variacion"
+            [cripto]="https://mercados.ambito.com/dolarcripto/variacion"
+            [lideres]="https://mercados.ambito.com/acciones/lideres"
+            [general]="https://mercados.ambito.com/acciones/nolideres"
+            [riesgopais_week]="https://mercados.ambito.com/riesgopais/grafico/semanal"
+            [riesgopais_ultimo]="https://mercados.ambito.com/riesgopais/variacion-ultimo"
+            [dolares_infobae]="https://storage.googleapis.com/dolar-data/dolar-data.json"
+          )
 
-      - name: dolar hoy
+          for name in "${!urls[@]}"; do
+            echo "Downloading $name"
+            if ! curl -m 20 -L -sS --fail "${urls[$name]}" -o "datos/$name.json"; then
+              echo "⚠️ Failed downloading $name"
+            fi
+          done
+
+      - name: Download DolarHoy widgets
         run: |
           declare -A urls=(
-          [dolar-blue]="https://dolarhoy.com/i/cotizaciones/dolar-blue"
-          [dolar-oficial]="https://dolarhoy.com/i/cotizaciones/dolar-oficial"
-          [dolar-mep]="https://dolarhoy.com/i/cotizaciones/dolar-mep"
-          [dolar-contado-con-liquidacion]="https://dolarhoy.com/i/cotizaciones/dolar-contado-con-liquidacion"
-          [bitcoin-usd]="https://dolarhoy.com/i/cotizaciones/bitcoin-usd"
-          [banco-nacion]="https://dolarhoy.com/i/cotizaciones/banco-nacion"
-          )        
+            [dolar-blue]="https://dolarhoy.com/i/cotizaciones/dolar-blue"
+            [dolar-oficial]="https://dolarhoy.com/i/cotizaciones/dolar-oficial"
+            [dolar-mep]="https://dolarhoy.com/i/cotizaciones/dolar-mep"
+            [dolar-contado-con-liquidacion]="https://dolarhoy.com/i/cotizaciones/dolar-contado-con-liquidacion"
+            [bitcoin-usd]="https://dolarhoy.com/i/cotizaciones/bitcoin-usd"
+            [banco-nacion]="https://dolarhoy.com/i/cotizaciones/banco-nacion"
+          )
+
           for name in "${!urls[@]}"; do
-            echo "${urls[$name]}"
-            curl -m 20 -s "${urls[$name]}" -o "datos/$name.html"
+            echo "Downloading $name"
+            if ! curl -m 20 -L -sS --fail "${urls[$name]}" -o "datos/$name.html"; then
+              echo "⚠️ Failed downloading $name"
+            fi
           done
 
       - name: Commit and push if changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add *
-          git commit -m "Update downloaded HTML pages" || echo "No changes to commit"
-          git push
+
+          git add .
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+
+          git commit -m "Update downloaded HTML pages"
+
+          # Sync with remote in case another workflow pushed first
+          git pull --rebase origin main || true
+
+          # Don't fail the workflow if the push is rejected
+          git push || echo "Push failed (likely another workflow updated the branch first)."
