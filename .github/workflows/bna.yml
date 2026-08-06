@@ -74,33 +74,48 @@ jobs:
           node scraper.mjs
 
       - name: Commit and push updated HTML
+        shell: bash
         run: |
+          set -e
+
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add datos/bna.html
-
-          if git diff --cached --quiet; then
-            echo "No changes."
-            exit 0
-          fi
-
-          git commit -m "Update BNA HTML"
+          # Save the freshly scraped file outside the repository
+          cp datos/bna.html /tmp/bna.html
 
           for i in 1 2 3; do
-            echo "Attempt $i..."
+            echo "========================="
+            echo "Attempt $i"
+            echo "========================="
 
+            # Synchronize with the latest main
             git fetch origin
-            git rebase origin/main
+            git reset --hard origin/main
+            git clean -fd
 
-            if git push origin main; then
+            # Restore the generated file
+            mkdir -p datos
+            cp /tmp/bna.html datos/bna.html
+
+            git add datos/bna.html
+
+            if git diff --cached --quiet; then
+              echo "No changes detected."
+              exit 0
+            fi
+
+            git commit -m "Update BNA HTML"
+
+            if git push origin HEAD:main; then
               echo "Push successful."
               exit 0
             fi
 
-            echo "Push failed. Retrying in 5 seconds..."
+            echo "Push failed because the remote changed."
+            echo "Waiting 5 seconds before retrying..."
             sleep 5
           done
 
-          echo "Failed to push after 3 attempts."
+          echo "Failed after 3 attempts."
           exit 1
