@@ -1,0 +1,7 @@
+{
+  "name": "bna-scraper",
+  "private": true,
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
