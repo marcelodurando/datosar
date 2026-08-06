@@ -22,59 +22,18 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
 
+    container:
+      image: mcr.microsoft.com/playwright:v1.55.0-noble
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: npm
-          cache-dependency-path: bna/package-lock.json
-
-      - name: Restore Playwright browser cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ hashFiles('bna/package-lock.json') }}
-          restore-keys: |
-            playwright-${{ runner.os }}-
-
-      - name: Debug repository
-        run: |
-          echo "=== Current directory ==="
-          pwd
-
-          echo ""
-          echo "=== Repository tree ==="
-          find . -maxdepth 3 -type f | sort
-
-          echo ""
-          echo "=== bna directory ==="
-          ls -la bna || true
-
-          echo ""
-          echo "=== package.json ==="
-          cat bna/package.json || true
-
-          echo ""
-          echo "=== package-lock.json exists? ==="
-          ls -l bna/package-lock.json || true
-
-          echo ""
-          echo "=== First 20 lines of package-lock.json ==="
-          head -20 bna/package-lock.json || true
-
       - name: Install dependencies
         working-directory: bna
-        run: npm ci
-
-      - name: Install Chromium
-        working-directory: bna
-        run: npx playwright install chromium
+        run: npm install
 
       - name: Run scraper
         working-directory: bna
