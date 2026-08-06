@@ -3,10 +3,20 @@ name: Scrape BNA
 on:
   schedule:
     - cron: "*/30 * * * *"
+
   workflow_dispatch:
+    inputs:
+      reason:
+        description: "Reason for triggering the workflow"
+        required: false
+        type: string
 
 permissions:
   contents: write
+
+concurrency:
+  group: scrape-bna
+  cancel-in-progress: false
 
 jobs:
   scrape:
@@ -15,6 +25,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -50,7 +62,6 @@ jobs:
             timeout: 120000
           });
 
-          // Give the page a few seconds in case content loads after network idle
           await page.waitForTimeout(5000);
 
           fs.writeFileSync("datos/bna.html", await page.content());
@@ -62,7 +73,7 @@ jobs:
 
           node scraper.mjs
 
-      - name: Commit updated HTML
+      - name: Commit and push updated HTML
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -75,4 +86,21 @@ jobs:
           fi
 
           git commit -m "Update BNA HTML"
-          git push
+
+          for i in 1 2 3; do
+            echo "Attempt $i..."
+
+            git fetch origin
+            git rebase origin/main
+
+            if git push origin main; then
+              echo "Push successful."
+              exit 0
+            fi
+
+            echo "Push failed. Retrying in 5 seconds..."
+            sleep 5
+          done
+
+          echo "Failed to push after 3 attempts."
+          exit 1
