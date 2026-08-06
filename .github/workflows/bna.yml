@@ -43,13 +43,38 @@ jobs:
           restore-keys: |
             playwright-${{ runner.os }}-
 
+      - name: Debug repository
+        run: |
+          echo "=== Current directory ==="
+          pwd
+
+          echo ""
+          echo "=== Repository tree ==="
+          find . -maxdepth 3 -type f | sort
+
+          echo ""
+          echo "=== bna directory ==="
+          ls -la bna || true
+
+          echo ""
+          echo "=== package.json ==="
+          cat bna/package.json || true
+
+          echo ""
+          echo "=== package-lock.json exists? ==="
+          ls -l bna/package-lock.json || true
+
+          echo ""
+          echo "=== First 20 lines of package-lock.json ==="
+          head -20 bna/package-lock.json || true
+
       - name: Install dependencies
         working-directory: bna
         run: npm ci
 
       - name: Install Chromium
         working-directory: bna
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install chromium
 
       - name: Run scraper
         working-directory: bna
@@ -63,18 +88,15 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Save the generated file outside the repo
           cp datos/bna.html /tmp/bna.html
 
           for i in 1 2 3; do
             echo "Attempt $i..."
 
-            # Synchronize with latest main
             git fetch origin
             git reset --hard origin/main
             git clean -fd
 
-            # Restore generated file
             mkdir -p datos
             cp /tmp/bna.html datos/bna.html
 
