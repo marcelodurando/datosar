@@ -28,50 +28,32 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+          cache-dependency-path: bna/package-lock.json
 
-      - name: Install Playwright
-        run: |
-          npm init -y
-          npm install playwright
-          npx playwright install --with-deps chromium
+      - name: Restore Playwright browser cache
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ hashFiles('bna/package-lock.json') }}
+          restore-keys: |
+            playwright-${{ runner.os }}-
 
-      - name: Scrape BNA
-        run: |
-          mkdir -p datos
+      - name: Install dependencies
+        working-directory: bna
+        run: npm ci
 
-          cat > scraper.mjs <<'EOF'
-          import { chromium } from 'playwright';
-          import fs from 'fs';
+      - name: Install Chromium
+        working-directory: bna
+        run: npx playwright install --with-deps chromium
 
-          const browser = await chromium.launch({
-            headless: true
-          });
-
-          const page = await browser.newPage({
-            viewport: { width: 1600, height: 900 }
-          });
-
-          console.log("Opening BNA...");
-
-          await page.goto("https://bna.com.ar/Personas", {
-            waitUntil: "networkidle",
-            timeout: 120000
-          });
-
-          await page.waitForTimeout(5000);
-
-          fs.writeFileSync("datos/bna.html", await page.content());
-
-          console.log("Saved datos/bna.html");
-
-          await browser.close();
-          EOF
-
-          node scraper.mjs
+      - name: Run scraper
+        working-directory: bna
+        run: node scraper.mjs
 
       - name: Commit and push updated HTML
         shell: bash
@@ -81,27 +63,25 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Save the freshly scraped file outside the repository
+          # Save the generated file outside the repo
           cp datos/bna.html /tmp/bna.html
 
           for i in 1 2 3; do
-            echo "========================="
-            echo "Attempt $i"
-            echo "========================="
+            echo "Attempt $i..."
 
-            # Synchronize with the latest main
+            # Synchronize with latest main
             git fetch origin
             git reset --hard origin/main
             git clean -fd
 
-            # Restore the generated file
+            # Restore generated file
             mkdir -p datos
             cp /tmp/bna.html datos/bna.html
 
             git add datos/bna.html
 
             if git diff --cached --quiet; then
-              echo "No changes detected."
+              echo "No changes."
               exit 0
             fi
 
@@ -112,8 +92,7 @@ jobs:
               exit 0
             fi
 
-            echo "Push failed because the remote changed."
-            echo "Waiting 5 seconds before retrying..."
+            echo "Push failed. Waiting 5 seconds..."
             sleep 5
           done
 
