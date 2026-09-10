@@ -701,8 +701,8 @@
                     3.104.891,50
                 </span>
 
-                <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,94</span>%
+                <span class="neutral ml10">
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,00</span>%
                 </span>
             </div>
             <div class="col-md-3 nav-tabs pt10 pb5 text-center">
@@ -711,8 +711,8 @@
                     134.839.492,00
                 </span>
 
-                <span class="up ml10">
-                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">1,45</span>%
+                <span class="neutral ml10">
+                    <span class="sprite-inline sprite-arrow"></span><span class="tar ml5">0,00</span>%
                 </span>
             </div>
 
@@ -862,7 +862,7 @@
 
                     <td class="tar"> 1.478,7053</td>
                     <td class="tar"> 1.570,1754</td>
-                    <td class="tac"> 10/9/2026 03:30:00</td>
+                    <td class="tac"> 10/9/2026 06:00:00</td>
                     <td class="tar up">
                         <strong>2,5712 %</strong>
                     </td>
@@ -889,7 +889,7 @@
 
                     <td class="tar"> 1.496,5517</td>
                     <td class="tar"> 1.612,3221</td>
-                    <td class="tac"> 10/9/2026 03:30:00</td>
+                    <td class="tac"> 10/9/2026 06:00:00</td>
                     <td class="tar up">
                         <strong>1,4369 %</strong>
                     </td>
